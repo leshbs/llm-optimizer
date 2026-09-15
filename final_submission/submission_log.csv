@@ -1,0 +1,2 @@
+timestamp,filename,checksum,stage1_model,stage2_model,threshold,notes,leaderboard_score
+2026-09-15T00:37:40.793482+00:00,submission.csv,653c2b360bdf450d882bb4709b117fa2f7a4ba11f7a36ce8c0319a7b9c897ac9,C1,G,0.5,"H10 production freeze -- C1 (Stage1) + G (Stage2, H9-promoted)",

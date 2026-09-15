@@ -1,0 +1,81 @@
+{
+  "c2_frozen": {
+    "macro_f2": 0.8057439457082438,
+    "m2": 0.679431,
+    "threshold": 0.5,
+    "per_fold_macro_f2": [
+      0.7192806733808719,
+      0.8362830243760035,
+      0.8423449856092995,
+      0.8181158683658476,
+      0.8119189049586777
+    ],
+    "mean_fold_macro_f2": 0.80558869133814,
+    "std_fold_macro_f2": 0.0498478760371609
+  },
+  "h7_threshold_optimized": {
+    "threshold": 0.54,
+    "macro_f2": 0.817891548679025,
+    "m2": 0.7064256637311667,
+    "adopted": false,
+    "reason_not_adopted": "trades Applicable-class recall for precision (FN 77->90); kept frozen 0.50 per H7 26.0 decision"
+  },
+  "failure_modes": {
+    "long_protocol": {
+      "evidence": "subgroup_analysis.csv: protocol_len Q4 (longest) Macro-F2=0.7676, the second-weakest quartile.",
+      "example_ids": []
+    },
+    "negation": {
+      "evidence": "No standalone negation-miss case in the 10 hand-categorized H7 errors, but negation_count is the single most load-bearing engineered feature (feature_importance.csv) -- risk is under-use, not absence.",
+      "example_ids": []
+    },
+    "age_contradiction": {
+      "evidence": "error_analysis.csv id 525 -- title restricts to children, patient age=73, labeled Applicable anyway.",
+      "example_ids": [
+        525
+      ]
+    },
+    "gender_contradiction": {
+      "evidence": "error_analysis.csv ids 126/127 -- pregnancy/breastfeeding title with no structured gender field at all (unknown, not a confirmed contradiction).",
+      "example_ids": [
+        126,
+        127
+      ]
+    },
+    "severity_mismatch": {
+      "evidence": "error_analysis.csv ids 155, 722 -- title specifies a disease subtype/severity ('mild'/'erosive') not matching the narrative's implied severity.",
+      "example_ids": [
+        155,
+        722
+      ]
+    },
+    "comorbidity_contradiction": {
+      "evidence": "H6 error analysis (section 17, T3) ids 76/177/185 -- broad disease topic matched but a specific required comorbidity (e.g. atrial fibrillation) named deep in the title hierarchy was missed.",
+      "example_ids": [
+        76,
+        177,
+        185
+      ]
+    },
+    "unknown_vs_contradiction": {
+      "evidence": "error_analysis.csv ids 651, 601, 619 -- absence of oncology/severity evidence treated like evidence of absence (CLAUDE.md section 8's core warning).",
+      "example_ids": [
+        651,
+        601,
+        619
+      ]
+    },
+    "missing_structured_fields": {
+      "evidence": "subgroup_analysis.csv: gender-missing and ICD-missing are the identical 193 rows (Macro-F2=0.7247 vs 0.8200 when present); age-missing (n=12) scores Macro-F2=0.3571.",
+      "example_ids": []
+    },
+    "potential_annotation_ambiguity": {
+      "evidence": "ids 525 and 126/127 have unambiguous literal title contradictions (age/gender) yet are labeled Applicable -- flagged independently in both H6 (section 17) and H7 (section 24) error analyses.",
+      "example_ids": [
+        525,
+        126,
+        127
+      ]
+    }
+  }
+}

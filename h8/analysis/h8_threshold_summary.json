@@ -1,0 +1,9 @@
+{
+  "variant": "G_final_selected (contradiction)",
+  "best_threshold": 0.5,
+  "best_macro_f2": 0.8160740711378891,
+  "best_m2": 0.7023868247508647,
+  "threshold_050_macro_f2": 0.8160740711378891,
+  "threshold_050_m2": 0.7023868247508647,
+  "absolute_gain_m2_vs_050": 0.0
+}

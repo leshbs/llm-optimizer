@@ -1,0 +1,8 @@
+Variant,Raw Macro-F2,M2,Threshold,Fold Mean,Fold Std,Delta vs Frozen C2,Stability,Medical Interpretation
+A: Frozen C2 (control),0.8057,0.6794,0.5,0.8056,0.0498,0.0,comparable,Reference point; unchanged frozen pipeline.
+B: C2 + contradiction,0.8161,0.7024,0.5,0.8159,0.0398,0.023,improved,PROMOTED. Explicit age/gender/severity/condition contradiction flags directly encode the rule-based reasoning CLAUDE.md sections 4/8 ask for; clear pooled gain and improved fold stability.
+C: C2 + negation,0.8097,0.6882,0.5,0.8095,0.0374,0.0088,improved,"Rejected (marginal, +0.009 M2 below the +0.01 promotion bar). Finer-grained negation counts add little beyond C2's own existing negation_count."
+D: C2 + missingness,0.7974,0.661,0.5,0.7972,0.0484,-0.0184,improved,Rejected (-0.018 M2). Missingness indicators are largely collinear with C2's existing has_structured_header and add noise rather than signal to this linear model.
+E: C2 + long-protocol,0.8075,0.6834,0.5,0.8074,0.0444,0.004,improved,"Rejected (+0.004 M2, below promotion bar). Structural/length metadata does not add reliable signal on top of TF-IDF + C2's existing protocol_len."
+F: C2 + contradiction + negation,0.8097,0.6883,0.5,0.8096,0.0365,0.0089,improved,Rejected. Combining negation with contradiction UNDERPERFORMS contradiction alone (0.688 vs 0.702) -- negation features interfere rather than complement the contradiction signal here.
+G: Final selected (= contradiction only),0.8161,0.7024,0.5,0.8159,0.0398,0.023,improved,"Final pick: contradiction features only. A candidate contradiction+long_protocol combination was also tested and underperformed (0.669, worse than the frozen control) -- confirms no further group should be added."

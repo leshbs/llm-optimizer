@@ -1,0 +1,7 @@
+{
+  "name": "D: field extractor + лемма + numeric (ColumnTransformer) + LogReg",
+  "cv_M2": 0.679431,
+  "use_rule_override": false,
+  "n_splits": 5,
+  "random_state": 42
+}

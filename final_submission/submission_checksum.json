@@ -1,0 +1,9 @@
+{
+  "file": "submission.csv",
+  "sha256": "653c2b360bdf450d882bb4709b117fa2f7a4ba11f7a36ce8c0319a7b9c897ac9",
+  "n_rows": 615,
+  "n_cols": 3,
+  "stage1_model": "C1",
+  "stage2_model": "G",
+  "threshold": 0.5
+}

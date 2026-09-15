@@ -1,0 +1,102 @@
+{
+  "frozen_c2": {
+    "raw_macro_f2": 0.8057439457082438,
+    "m2": 0.679431,
+    "threshold": 0.5
+  },
+  "promoted_variant_B": {
+    "raw_macro_f2": 0.8160740711378891,
+    "m2": 0.7023868247508647,
+    "threshold": 0.5,
+    "delta_vs_c2": 0.022955834288100663,
+    "std_fold": 0.03983515917288531,
+    "accepted_features": [
+      "age_contradiction",
+      "gender_condition_present",
+      "gender_unknown",
+      "severity_match",
+      "severity_contradiction",
+      "severity_unknown",
+      "condition_overlap",
+      "condition_contradiction",
+      "condition_unknown",
+      "contradiction_count",
+      "contradiction_density"
+    ]
+  },
+  "final_h8_model_G": {
+    "raw_macro_f2": 0.8160740711378891,
+    "m2": 0.7023868247508647,
+    "threshold": 0.5,
+    "delta_vs_c2": 0.022955834288100663,
+    "std_fold": 0.03983515917288531,
+    "composition": "contradiction only (negation/missingness/long_protocol tested and rejected -- see F and _rejected_* entries)"
+  },
+  "rejected_groups": [
+    "negation",
+    "missingness",
+    "long_protocol"
+  ],
+  "rejected_combinations": [
+    "contradiction+negation",
+    "contradiction+long_protocol",
+    "contradiction+negation+missingness interaction variants"
+  ],
+  "error_matrix_at_050": {
+    "tp": 372,
+    "fp": 42,
+    "tn": 195,
+    "fn": 81,
+    "precision_applicable": 0.8986,
+    "recall_applicable": 0.8212,
+    "precision_not_applicable": 0.7065,
+    "recall_not_applicable": 0.8228,
+    "macro_f2": 0.8161
+  },
+  "weakest_subgroups": {
+    "protocol_len_Q4_longest": {
+      "macro_f2": 0.7676,
+      "note": "remains the weakest length quartile, same conclusion as H7"
+    },
+    "age_missing": {
+      "n": 12,
+      "macro_f2": 0.4974,
+      "note": "small but severe blind spot, improved from C2's 0.357 but still weakest overall subgroup"
+    }
+  },
+  "recurring_annotation_ambiguity_ids": [
+    525,
+    126,
+    127
+  ],
+  "final_recommendation": "Promote variant G (C2 + 11 contradiction features) as the new candidate Stage 2 model: +0.023 M2 over frozen C2 with improved fold stability, no threshold retuning needed, and fully interpretable coefficients. Decision to actually replace the frozen submission pipeline is left to a deployment-scoped follow-up, consistent with this stage's evaluation-only scope.",
+  "final_table": [
+    {
+      "Model": "Frozen C2",
+      "Raw Macro-F2": 0.8057,
+      "M2": 0.6794,
+      "Threshold": 0.5,
+      "Delta vs Frozen C2": 0.0,
+      "Stability (fold std)": 0.0498,
+      "Accepted Medical Features": "none (baseline)"
+    },
+    {
+      "Model": "H8 promoted: C2 + contradiction (variant B)",
+      "Raw Macro-F2": 0.8161,
+      "M2": 0.7024,
+      "Threshold": 0.5,
+      "Delta vs Frozen C2": 0.023,
+      "Stability (fold std)": 0.0398,
+      "Accepted Medical Features": "age/gender/severity/condition contradiction flags (11 features)"
+    },
+    {
+      "Model": "Final H8 model (variant G)",
+      "Raw Macro-F2": 0.8161,
+      "M2": 0.7024,
+      "Threshold": 0.5,
+      "Delta vs Frozen C2": 0.023,
+      "Stability (fold std)": 0.0398,
+      "Accepted Medical Features": "age/gender/severity/condition contradiction flags (11 features) -- identical to B; negation/missingness/long-protocol rejected"
+    }
+  ]
+}

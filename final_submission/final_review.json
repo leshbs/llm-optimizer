@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "stage1_model_is_c1": {
+      "pass": true
+    },
+    "stage2_model_is_g": {
+      "pass": true
+    },
+    "threshold_is_050": {
+      "pass": true
+    },
+    "feature_schema_matches_h9": {
+      "pass": true
+    },
+    "stage1_id_count_442": {
+      "pass": true,
+      "detail": "verified in H10 68.0 (stage1_ids_match_exactly)"
+    },
+    "stage2_id_count_173": {
+      "pass": true,
+      "detail": "verified in H10 68.0 (stage2_ids_match_exactly)"
+    },
+    "submission_row_ordering_preserved": {
+      "pass": true
+    },
+    "submission_row_count_615": {
+      "pass": true
+    },
+    "submission_checksum_recorded": {
+      "pass": true
+    },
+    "submission_validation_passed": {
+      "pass": true
+    },
+    "labels_binary": {
+      "pass": true
+    },
+    "model_build_validation_passed": {
+      "pass": true
+    }
+  },
+  "all_checks_passed": true
+}

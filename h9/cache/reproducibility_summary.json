@@ -1,0 +1,61 @@
+{
+  "n_total": 690,
+  "n_folds": 5,
+  "fold_sizes": [
+    [
+      552,
+      138
+    ],
+    [
+      552,
+      138
+    ],
+    [
+      552,
+      138
+    ],
+    [
+      552,
+      138
+    ],
+    [
+      552,
+      138
+    ]
+  ],
+  "same_row_order": true,
+  "same_labels": true,
+  "folds_partition_all_rows_exactly_once": true,
+  "random_state": 42,
+  "n_splits": 5,
+  "C2": {
+    "raw_macro_f2": 0.8057439457082438,
+    "m2": 0.679430990462764,
+    "frozen_cv_m2": 0.679431,
+    "diff_vs_frozen": 9.537236000944915e-09,
+    "per_fold_macro_f2": [
+      0.7192806733808719,
+      0.8362830243760035,
+      0.8423449856092995,
+      0.8181158683658476,
+      0.8119189049586777
+    ]
+  },
+  "G": {
+    "raw_macro_f2": 0.8160740711378891,
+    "m2": 0.7023868247508647,
+    "expected_m2": 0.7024,
+    "cached_variant_m2": 0.7023868247508647,
+    "diff_vs_cached": 0.0,
+    "diff_vs_expected": 1.3175249135355394e-05,
+    "per_fold_macro_f2": [
+      0.7447833065810594,
+      0.8298500122940743,
+      0.8361065665204135,
+      0.8344319929685784,
+      0.8344319929685784
+    ]
+  },
+  "acceptance_threshold": 1e-06,
+  "reproducibility_passed": true
+}

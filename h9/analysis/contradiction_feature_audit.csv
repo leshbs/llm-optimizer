@@ -1,0 +1,12 @@
+feature,activation_count,activation_pct,coefficient,expected_direction,observed_direction,direction_matches_expected,redundancy,false_activation_example_ids
+age_contradiction,17,2.46,-0.4514952937129409,negative (favor Not Applicable),negative (favors Not Applicable),True,none >0.5,[]
+gender_condition_present,69,10.0,-0.6627078316296087,negative or neutral (title imposes a gender condition),negative (favors Not Applicable),True,none >0.5,"[126, 131, 129]"
+gender_unknown,18,2.61,0.0871161285953917,positive (unknown != contradiction),positive (favors Applicable),True,none >0.5,"[126, 131, 129]"
+severity_match,8,1.16,0.2713508819968973,positive (favor Applicable),positive (favors Applicable),True,none >0.5,[465]
+severity_contradiction,19,2.75,0.4910410293708462,negative (favor Not Applicable),positive (favors Applicable),False,none >0.5,[722]
+severity_unknown,58,8.41,1.0916912200189437,positive (unknown != contradiction),positive (favors Applicable),True,none >0.5,[619]
+condition_overlap,476,68.99,-0.036772001346107,positive (topic match favors Applicable),negative (favors Not Applicable),False,condition_unknown (corr=-1.000),"[112, 580, 480]"
+condition_contradiction,58,8.41,0.2636362267381091,negative (favor Not Applicable),positive (favors Applicable),False,contradiction_density (corr=0.908),"[399, 150, 604]"
+condition_unknown,214,31.01,0.036772001346107,neutral/positive (unknown != contradiction),positive (favors Applicable),True,condition_overlap (corr=-1.000),"[298, 333, 660]"
+contradiction_count,94,13.62,0.2434629744771204,negative (more contradictions -> Not Applicable),positive (favors Applicable),False,contradiction_density (corr=0.919),"[399, 150, 604]"
+contradiction_density,94,13.62,-0.3390365638119704,negative (more contradictions relative to checks -> Not Applicable),negative (favors Not Applicable),True,contradiction_count (corr=0.919),[]

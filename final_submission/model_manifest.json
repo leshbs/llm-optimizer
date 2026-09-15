@@ -1,0 +1,39 @@
+{
+  "stage1": {
+    "model_name": "C1 (F: char TF-IDF + meta (FeatureUnion) + LinearSVC)",
+    "dataset": "train_stage1.csv (1767 rows, encoding=cp1251)",
+    "preprocessing": "char_wb TF-IDF(2-5gram, min_df=2) + 6 structural meta-features (len_chars, n_lines, has_latin, has_digit, n_quotes, max_word_len), scaled",
+    "feature_count": 1016
+  },
+  "stage2": {
+    "model_name": "G (G_final_selected (frozen C2 structured_preprocessor + 11 promoted contradiction features))",
+    "base_c2": "Frozen structured_preprocessor: title/narrative TF-IDF + 4 numeric (age, has_structured_header, negation_count, protocol_len) + gender one-hot + LogisticRegression(max_iter=2000, class_weight='balanced')",
+    "promoted_contradiction_features": [
+      "age_contradiction",
+      "gender_condition_present",
+      "gender_unknown",
+      "severity_match",
+      "severity_contradiction",
+      "severity_unknown",
+      "condition_overlap",
+      "condition_contradiction",
+      "condition_unknown",
+      "contradiction_count",
+      "contradiction_density"
+    ],
+    "threshold": 0.5,
+    "feature_schema_hash": "e2b77881ea9bd385dbf5fcfb61fa4babfab4c9aa6b9c645cff177df52a74d248",
+    "total_feature_count": 2673
+  },
+  "validation": {
+    "h9_macro_f2": 0.8160740711378891,
+    "h9_m2": 0.7023868247508647,
+    "improvement_over_c2": {
+      "macro_f2_delta": 0.0103301254296452,
+      "m2_delta": 0.0229558342881006,
+      "c2_macro_f2": 0.8057439457082438,
+      "c2_m2": 0.679430990462764
+    },
+    "source": "h9/analysis/final_scorecard.csv (H9 58.0 final decision scorecard)"
+  }
+}

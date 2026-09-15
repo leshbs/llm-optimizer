@@ -1,0 +1,22 @@
+{
+  "C2": {
+    "source": "frozen/c2_summary.json (unchanged)",
+    "cv_M2_frozen": 0.679431,
+    "reproduced_pooled_raw_macro_f2_at_05": 0.8057439457082438,
+    "reproduced_pooled_m2_at_05": 0.679430990462764,
+    "reproducibility_abs_diff": 9.537236000944915e-09,
+    "per_fold_macro_f2": [
+      0.7192806733808719,
+      0.8362830243760035,
+      0.8423449856092995,
+      0.8181158683658476,
+      0.8119189049586777
+    ],
+    "mean_fold_macro_f2": 0.80558869133814,
+    "std_fold_macro_f2": 0.0498478760371609,
+    "per_class_f2_at_05": {
+      "class_0_not_applicable": 0.7714521452145214,
+      "class_1_applicable": 0.8400357462019661
+    }
+  }
+}

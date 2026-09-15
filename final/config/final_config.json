@@ -1,0 +1,15 @@
+{
+  "stage1_model": "C1",
+  "stage1_config_name": "F: char TF-IDF + meta (FeatureUnion) + LinearSVC",
+  "stage2_model": "G",
+  "stage2_config_name": "G_final_selected (frozen C2 structured_preprocessor + 11 promoted contradiction features)",
+  "random_state": 42,
+  "threshold": 0.5,
+  "feature_schema_version": "H9_G_promoted_v1",
+  "contradiction_feature_count": 11,
+  "dataset_hashes": {
+    "train_stage1.csv": "a16c4f27d18d3e0cdf340291f956379f",
+    "train_stage2.csv": "c3bd0e648fae887e312afb0c4f49181d"
+  },
+  "notebook_cell_count_at_h10": 274
+}

@@ -1,0 +1,55 @@
+{
+  "checks": {
+    "row_count_615": {
+      "pass": true,
+      "actual": 615
+    },
+    "column_count_3": {
+      "pass": true,
+      "actual": [
+        "stage",
+        "id",
+        "label"
+      ]
+    },
+    "no_duplicate_stage_id_pairs": {
+      "pass": true,
+      "n_duplicates": 0
+    },
+    "stage1_ids_match_exactly": {
+      "pass": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "stage2_ids_match_exactly": {
+      "pass": true,
+      "missing": [],
+      "unexpected": []
+    },
+    "stage1_id_order_preserved": {
+      "pass": true
+    },
+    "stage2_id_order_preserved": {
+      "pass": true
+    },
+    "labels_are_integers": {
+      "pass": true
+    },
+    "labels_are_binary": {
+      "pass": true
+    },
+    "no_nan_anywhere": {
+      "pass": true
+    },
+    "provenance_stage1_c1": {
+      "pass": true
+    },
+    "provenance_stage2_g": {
+      "pass": true
+    },
+    "provenance_threshold_050": {
+      "pass": true
+    }
+  },
+  "all_checks_passed": true
+}

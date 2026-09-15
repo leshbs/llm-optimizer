@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "constant_features_in_promoted_set": {
+      "pass": true,
+      "details": []
+    },
+    "duplicate_features_in_promoted_set": {
+      "pass": true,
+      "details": []
+    },
+    "alias_features_over_0.95_corr": {
+      "pass": true,
+      "note": "documented, not a failure",
+      "details": [
+        [
+          "condition_overlap",
+          "condition_unknown",
+          -1.0
+        ]
+      ]
+    },
+    "leakage_fold_partition": {
+      "pass": true,
+      "details": "frozen skf2_folds.json partitions all 690 rows exactly once, no overlap"
+    },
+    "train_test_contamination": {
+      "pass": true,
+      "details": "h8_features.parquet has 690 ids, 0 overlap with test_stage2.csv ids"
+    },
+    "label_leakage": {
+      "pass": true,
+      "details": []
+    },
+    "threshold_is_050": {
+      "pass": true,
+      "details": "G's own optimal threshold (H8 36.0) = 0.5"
+    },
+    "fold_mapping_matches_c2": {
+      "pass": true,
+      "details": "C2 and G OOF share identical id order and labels (H9 48.0)"
+    },
+    "seed_unchanged": {
+      "pass": true,
+      "details": "RANDOM_STATE=42, frozen c2_summary.json random_state=42"
+    }
+  },
+  "all_checks_passed": true
+}

@@ -1,0 +1,26 @@
+{
+  "validation_passed": true,
+  "folds_stable": true,
+  "subgroup_stable": true,
+  "recall_acceptable": true,
+  "threshold_unchanged": true,
+  "leakage_detected": false,
+  "details": {
+    "reproducibility_diff_c2": 9.537236000944915e-09,
+    "reproducibility_diff_g": 0.0,
+    "folds_improved": 3,
+    "folds_degraded": 2,
+    "mean_delta_m2": 0.02296018428533504,
+    "std_delta_m2": 0.0346050232369245,
+    "n_subgroups": 12,
+    "n_subgroups_flagged": 1,
+    "flagged_subgroups": [
+      "age missing"
+    ],
+    "recall_applicable_c2": 0.8300220750551877,
+    "recall_applicable_g": 0.8211920529801324,
+    "recall_applicable_delta": -0.008830022075055233,
+    "threshold": 0.5
+  },
+  "overall_recommendation": "PASS -- G's improvement over frozen C2 is reproducible to floating-point precision, distributed positively in 3 of 5 folds (with 2 folds showing a small degradation, mean delta still clearly positive), consistent across every tested subgroup except the 12-row age-missing group (too small to conclude either way), and does not require a threshold change. One caveat: Applicable-class recall dropped by 0.0088 (-0.0088), a small but real shift worth monitoring given the project's stated conservatism principle for this class."
+}

@@ -1,0 +1,97 @@
+{
+  "config": {
+    "stage1_model": "C1",
+    "stage1_config_name": "F: char TF-IDF + meta (FeatureUnion) + LinearSVC",
+    "stage2_model": "G",
+    "stage2_config_name": "G_final_selected (frozen C2 structured_preprocessor + 11 promoted contradiction features)",
+    "random_state": 42,
+    "threshold": 0.5,
+    "feature_schema_version": "H9_G_promoted_v1",
+    "contradiction_feature_count": 11,
+    "dataset_hashes": {
+      "train_stage1.csv": "a16c4f27d18d3e0cdf340291f956379f",
+      "train_stage2.csv": "c3bd0e648fae887e312afb0c4f49181d"
+    },
+    "notebook_cell_count_at_h10": 274
+  },
+  "schema": {
+    "feature_schema_version": "H9_G_promoted_v1",
+    "total_feature_count": 2673,
+    "feature_schema_hash": "e2b77881ea9bd385dbf5fcfb61fa4babfab4c9aa6b9c645cff177df52a74d248",
+    "blocks": [
+      {
+        "block": "title_tfidf",
+        "input_columns": [
+          "title_lemma"
+        ],
+        "output_feature_count": 146
+      },
+      {
+        "block": "narrative_tfidf",
+        "input_columns": [
+          "narrative_lemma"
+        ],
+        "output_feature_count": 2509
+      },
+      {
+        "block": "numeric",
+        "input_columns": [
+          "age",
+          "has_structured_header",
+          "negation_count",
+          "protocol_len"
+        ],
+        "output_feature_count": 4
+      },
+      {
+        "block": "gender",
+        "input_columns": [
+          "gender"
+        ],
+        "output_feature_count": 3
+      },
+      {
+        "block": "h8_numeric",
+        "input_columns": [
+          "age_contradiction",
+          "gender_condition_present",
+          "gender_unknown",
+          "severity_match",
+          "severity_contradiction",
+          "severity_unknown",
+          "condition_overlap",
+          "condition_contradiction",
+          "condition_unknown",
+          "contradiction_count",
+          "contradiction_density"
+        ],
+        "output_feature_count": 11
+      }
+    ]
+  },
+  "preprocessing_hashes": {
+    "stage1_preprocessor.joblib": "c5b16ac4203cdd4edc2e0f798ea12da4d8a9e5d029141381afe06aaa0f4c8055",
+    "stage2_preprocessor.joblib": "45fa7fc44ec7edc4309a252e06047c4a923946470b13959a6bab27213fe89b4c"
+  },
+  "dataset_hashes": {
+    "train_stage1.csv": "a16c4f27d18d3e0cdf340291f956379f",
+    "train_stage2.csv": "c3bd0e648fae887e312afb0c4f49181d"
+  },
+  "model_hashes": {
+    "stage1_c1.joblib": "8a482ae809974d72363c6bf52da4bc69a5211194129ba37036a70445e076ff13",
+    "stage2_g.joblib": "9e91cc422b4c178b4fbbbda60901aa8247db841c189b318fc6cf5fc13cbd553e"
+  },
+  "submission_checksum": {
+    "file": "submission.csv",
+    "sha256": "653c2b360bdf450d882bb4709b117fa2f7a4ba11f7a36ce8c0319a7b9c897ac9",
+    "n_rows": 615,
+    "n_cols": 3,
+    "stage1_model": "C1",
+    "stage2_model": "G",
+    "threshold": 0.5
+  },
+  "notebook_version": {
+    "notebook_cell_count_at_h10_part1": 274
+  },
+  "timestamp": "2026-09-15T00:37:40.788804+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "checks": {
+    "feature_ordering_reproducible": {
+      "pass": true
+    },
+    "no_missing_engineered_features": {
+      "pass": true,
+      "missing_columns": [],
+      "nan_counts": {
+        "age_contradiction": 0,
+        "gender_condition_present": 0,
+        "gender_unknown": 0,
+        "severity_match": 0,
+        "severity_contradiction": 0,
+        "severity_unknown": 0,
+        "condition_overlap": 0,
+        "condition_contradiction": 0,
+        "condition_unknown": 0,
+        "contradiction_count": 0,
+        "contradiction_density": 0
+      }
+    },
+    "no_extra_h8_features": {
+      "pass": true,
+      "h8_numeric_block_columns": [
+        "age_contradiction",
+        "gender_condition_present",
+        "gender_unknown",
+        "severity_match",
+        "severity_contradiction",
+        "severity_unknown",
+        "condition_overlap",
+        "condition_contradiction",
+        "condition_unknown",
+        "contradiction_count",
+        "contradiction_density"
+      ]
+    },
+    "no_duplicate_columns": {
+      "pass": true,
+      "n_duplicates": 0
+    },
+    "no_nan_in_transformed_matrix": {
+      "pass": true,
+      "n_nan": 0
+    },
+    "g_classifier_classes_01": {
+      "pass": true,
+      "classes": [
+        0,
+        1
+      ]
+    },
+    "c1_classifier_classes_01": {
+      "pass": true,
+      "classes": [
+        0,
+        1
+      ]
+    },
+    "schema_matches_h9_promoted_set": {
+      "pass": true,
+      "h9_promoted_order": [
+        "age_contradiction",
+        "gender_condition_present",
+        "gender_unknown",
+        "severity_match",
+        "severity_contradiction",
+        "severity_unknown",
+        "condition_overlap",
+        "condition_contradiction",
+        "condition_unknown",
+        "contradiction_count",
+        "contradiction_density"
+      ]
+    },
+    "threshold_unchanged_050": {
+      "pass": true
+    },
+    "seed_unchanged": {
+      "pass": true
+    }
+  },
+  "all_checks_passed": true
+}

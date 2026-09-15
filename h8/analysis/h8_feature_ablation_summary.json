@@ -1,0 +1,101 @@
+{
+  "control_m2": 0.679430990462764,
+  "control_std_fold": 0.0498478760371609,
+  "promoted_groups": [
+    "contradiction"
+  ],
+  "rejected_groups": [
+    "negation",
+    "missingness",
+    "long_protocol"
+  ],
+  "rejected_combinations_tested": [
+    "contradiction+negation (F)",
+    "contradiction+long_protocol"
+  ],
+  "final_variant": "G_final_selected",
+  "final_variant_m2": 0.7023868247508647,
+  "final_variant_delta_vs_control": 0.022955834288100663,
+  "final_threshold": 0.5,
+  "threshold_gain_vs_050": 0.0,
+  "interaction_ablation_conclusion": "All tested interaction combinations (negation-only, contradiction+negation interaction, contradiction+missingness interaction, contradiction+negation+missingness) underperform contradiction alone; none were unstable by fold-std, they simply did not add pooled signal -- rejected on performance grounds, not instability.",
+  "comparison_table": [
+    {
+      "Variant": "A: Frozen C2 (control)",
+      "Raw Macro-F2": 0.8057,
+      "M2": 0.6794,
+      "Threshold": 0.5,
+      "Fold Mean": 0.8056,
+      "Fold Std": 0.0498,
+      "Delta vs Frozen C2": 0.0,
+      "Stability": "comparable",
+      "Medical Interpretation": "Reference point; unchanged frozen pipeline."
+    },
+    {
+      "Variant": "B: C2 + contradiction",
+      "Raw Macro-F2": 0.8161,
+      "M2": 0.7024,
+      "Threshold": 0.5,
+      "Fold Mean": 0.8159,
+      "Fold Std": 0.0398,
+      "Delta vs Frozen C2": 0.023,
+      "Stability": "improved",
+      "Medical Interpretation": "PROMOTED. Explicit age/gender/severity/condition contradiction flags directly encode the rule-based reasoning CLAUDE.md sections 4/8 ask for; clear pooled gain and improved fold stability."
+    },
+    {
+      "Variant": "C: C2 + negation",
+      "Raw Macro-F2": 0.8097,
+      "M2": 0.6882,
+      "Threshold": 0.5,
+      "Fold Mean": 0.8095,
+      "Fold Std": 0.0374,
+      "Delta vs Frozen C2": 0.0088,
+      "Stability": "improved",
+      "Medical Interpretation": "Rejected (marginal, +0.009 M2 below the +0.01 promotion bar). Finer-grained negation counts add little beyond C2's own existing negation_count."
+    },
+    {
+      "Variant": "D: C2 + missingness",
+      "Raw Macro-F2": 0.7974,
+      "M2": 0.661,
+      "Threshold": 0.5,
+      "Fold Mean": 0.7972,
+      "Fold Std": 0.0484,
+      "Delta vs Frozen C2": -0.0184,
+      "Stability": "improved",
+      "Medical Interpretation": "Rejected (-0.018 M2). Missingness indicators are largely collinear with C2's existing has_structured_header and add noise rather than signal to this linear model."
+    },
+    {
+      "Variant": "E: C2 + long-protocol",
+      "Raw Macro-F2": 0.8075,
+      "M2": 0.6834,
+      "Threshold": 0.5,
+      "Fold Mean": 0.8074,
+      "Fold Std": 0.0444,
+      "Delta vs Frozen C2": 0.004,
+      "Stability": "improved",
+      "Medical Interpretation": "Rejected (+0.004 M2, below promotion bar). Structural/length metadata does not add reliable signal on top of TF-IDF + C2's existing protocol_len."
+    },
+    {
+      "Variant": "F: C2 + contradiction + negation",
+      "Raw Macro-F2": 0.8097,
+      "M2": 0.6883,
+      "Threshold": 0.5,
+      "Fold Mean": 0.8096,
+      "Fold Std": 0.0365,
+      "Delta vs Frozen C2": 0.0089,
+      "Stability": "improved",
+      "Medical Interpretation": "Rejected. Combining negation with contradiction UNDERPERFORMS contradiction alone (0.688 vs 0.702) -- negation features interfere rather than complement the contradiction signal here."
+    },
+    {
+      "Variant": "G: Final selected (= contradiction only)",
+      "Raw Macro-F2": 0.8161,
+      "M2": 0.7024,
+      "Threshold": 0.5,
+      "Fold Mean": 0.8159,
+      "Fold Std": 0.0398,
+      "Delta vs Frozen C2": 0.023,
+      "Stability": "improved",
+      "Medical Interpretation": "Final pick: contradiction features only. A candidate contradiction+long_protocol combination was also tested and underperformed (0.669, worse than the frozen control) -- confirms no further group should be added."
+    }
+  ]
+}

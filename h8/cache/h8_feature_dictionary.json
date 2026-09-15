@@ -1,0 +1,350 @@
+{
+  "age_contradiction": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Title has an explicit 'up to N years' bound and patient age exceeds it.",
+    "source": "extract_age_bound(title) vs age (ProtocolFieldExtractor)"
+  },
+  "age_compatible": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Title has an age bound and patient age is within it.",
+    "source": "extract_age_bound(title) vs age"
+  },
+  "age_unknown": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Title has an age bound but patient age is not extractable.",
+    "source": "extract_age_bound(title) vs age"
+  },
+  "gender_condition_present": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Title's topic keywords imply a required patient gender.",
+    "source": "gender_requirement(title)"
+  },
+  "gender_contradiction": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Title implies a gender and the patient's structured gender differs.",
+    "source": "gender_requirement(title) vs gender"
+  },
+  "gender_unknown": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Title implies a gender but patient gender is unknown, OR the title is pregnancy-specific (pregnancy is never confirmed by gender alone -- see special rule).",
+    "source": "gender_requirement(title), is_pregnancy_title(title) vs gender"
+  },
+  "severity_match": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Title and narrative both mention an explicit severity level and they agree.",
+    "source": "SEVERITY_TERMS lexical match on title_lemma vs narrative_lemma"
+  },
+  "severity_contradiction": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Title and narrative both mention an explicit severity level and they disagree.",
+    "source": "SEVERITY_TERMS lexical match"
+  },
+  "severity_unknown": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Title specifies a severity level but narrative has no explicit severity marker.",
+    "source": "SEVERITY_TERMS lexical match"
+  },
+  "condition_overlap": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "At least one non-generic title-lemma token appears in the narrative lemma.",
+    "source": "lexical set intersection, title_lemma vs narrative_lemma"
+  },
+  "condition_contradiction": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "A shared title/narrative condition token falls within a NEGATION_PATTERN window in the narrative.",
+    "source": "negation_window_hit() proximity heuristic"
+  },
+  "condition_unknown": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Title has condition tokens but none appear anywhere in the narrative.",
+    "source": "lexical set intersection"
+  },
+  "contradiction_count": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "Sum of age/gender/severity/condition contradiction flags.",
+    "source": "derived"
+  },
+  "contradiction_density": {
+    "category": "contradiction",
+    "section": "28.0",
+    "description": "contradiction_count normalized by the number of checks actually applicable to this row (0 if none applicable).",
+    "source": "derived"
+  },
+  "protocol_negation_count": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "Alias of the existing C2 feature train_s2['negation_count'] (whole protocol_text). Not recomputed.",
+    "source": "reused from ProtocolFieldExtractor / section 2.5"
+  },
+  "guideline_negation_count": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "NEGATION_PATTERN matches inside title_text -- new, title-side negation was never checked before H7's error analysis surfaced it (e.g. 'therapy NOT recommended' titles).",
+    "source": "NEGATION_PATTERN on title_text"
+  },
+  "negation_count": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "Exact alias of protocol_negation_count, kept under this name because the H8 spec asks for it explicitly.",
+    "source": "alias"
+  },
+  "negation_difference": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "protocol_negation_count - guideline_negation_count.",
+    "source": "derived"
+  },
+  "negated_mention_count": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "NEGATION_PATTERN matches inside narrative_text only (subset of protocol_text).",
+    "source": "NEGATION_PATTERN on narrative_text"
+  },
+  "positive_mention_count": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "Count of shared title/narrative condition tokens minus negated_mention_count, floored at 0.",
+    "source": "derived"
+  },
+  "negation_ratio": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "protocol_negation_count / narrative token count.",
+    "source": "derived"
+  },
+  "negation_density": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "protocol_negation_count per 100 characters of protocol_text.",
+    "source": "derived"
+  },
+  "condition_present": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "Exact alias of condition_overlap (28.0), restated under the 29.0 naming the spec asks for.",
+    "source": "alias"
+  },
+  "condition_negated": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "Exact alias of condition_contradiction (28.0).",
+    "source": "alias"
+  },
+  "contradiction_with_negation": {
+    "category": "negation",
+    "section": "29.0",
+    "description": "Exact alias of condition_contradiction/condition_negated -- also reused as-is for the 32.0 interaction feature of the same name rather than recomputed.",
+    "source": "alias"
+  },
+  "age_missing": {
+    "category": "missing",
+    "section": "30.0",
+    "description": "Patient age not extractable.",
+    "source": "age.isna()"
+  },
+  "gender_missing": {
+    "category": "missing",
+    "section": "30.0",
+    "description": "Patient gender not extractable.",
+    "source": "gender.isna()"
+  },
+  "icd_missing": {
+    "category": "missing",
+    "section": "30.0",
+    "description": "No 'Код МКБ-10:' header found in protocol_text.",
+    "source": "regex presence check"
+  },
+  "complaints_missing": {
+    "category": "missing",
+    "section": "30.0",
+    "description": "No 'Жалобы:' field found.",
+    "source": "_extract_field(text, 'Жалобы') is None"
+  },
+  "history_missing": {
+    "category": "missing",
+    "section": "30.0",
+    "description": "No 'Анамнез:' field found.",
+    "source": "_extract_field(text, 'Анамнез') is None"
+  },
+  "objective_missing": {
+    "category": "missing",
+    "section": "30.0",
+    "description": "No 'Объективный статус:' field found.",
+    "source": "_extract_field(text, 'Объективный статус') is None"
+  },
+  "missing_field_count": {
+    "category": "missing",
+    "section": "30.0",
+    "description": "Sum of the 6 missingness indicators above.",
+    "source": "derived"
+  },
+  "structured_field_coverage": {
+    "category": "missing",
+    "section": "30.0",
+    "description": "1 - missing_field_count / 6.",
+    "source": "derived"
+  },
+  "char_length": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Exact alias of the existing C2 feature protocol_len -- reused, not recomputed.",
+    "source": "reused from ProtocolFieldExtractor"
+  },
+  "token_length": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Whitespace/regex token count of raw protocol_text.",
+    "source": "_token_re.findall(protocol_text)"
+  },
+  "sentence_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Count of '.'/'!'/'?' delimited segments.",
+    "source": "regex split"
+  },
+  "section_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Number of the 8 FIELD_PATTERNS headers present in protocol_text.",
+    "source": "regex presence per field"
+  },
+  "complaints_present": {
+    "category": "length",
+    "section": "31.0",
+    "description": "1 - complaints_missing.",
+    "source": "alias/derived"
+  },
+  "history_present": {
+    "category": "length",
+    "section": "31.0",
+    "description": "1 - history_missing.",
+    "source": "alias/derived"
+  },
+  "objective_present": {
+    "category": "length",
+    "section": "31.0",
+    "description": "1 - objective_missing.",
+    "source": "alias/derived"
+  },
+  "late_section_present": {
+    "category": "length",
+    "section": "31.0",
+    "description": "The 'Объективный статус:' header starts in the final third of protocol_text by character position.",
+    "source": "regex position check"
+  },
+  "complaints_token_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Token count of the extracted Жалобы field text.",
+    "source": "_token_re on field text"
+  },
+  "complaints_negation_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "NEGATION_PATTERN matches inside the Жалобы field only.",
+    "source": "regex on field text"
+  },
+  "complaints_condition_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Shared title-condition tokens found (lemmatized) inside the Жалобы field.",
+    "source": "lexical intersection"
+  },
+  "history_token_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Token count of the extracted Анамнез field text.",
+    "source": "_token_re on field text"
+  },
+  "history_negation_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "NEGATION_PATTERN matches inside the Анамнез field only.",
+    "source": "regex on field text"
+  },
+  "history_condition_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Shared title-condition tokens found inside the Анамнез field.",
+    "source": "lexical intersection"
+  },
+  "objective_token_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Token count of the extracted Объективный статус field text.",
+    "source": "_token_re on field text"
+  },
+  "objective_negation_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "NEGATION_PATTERN matches inside the Объективный статус field only.",
+    "source": "regex on field text"
+  },
+  "objective_condition_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Shared title-condition tokens found inside the Объективный статус field.",
+    "source": "lexical intersection"
+  },
+  "head_negation_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "NEGATION_PATTERN matches in the first 800 characters of protocol_text (counts only -- no raw text stored).",
+    "source": "regex on protocol_text[:800]"
+  },
+  "tail_negation_count": {
+    "category": "length",
+    "section": "31.0",
+    "description": "NEGATION_PATTERN matches in the last 800 characters of protocol_text.",
+    "source": "regex on protocol_text[-800:]"
+  },
+  "head_condition_mentions": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Shared title-condition tokens (lemmatized) found in the first 800 characters.",
+    "source": "lexical intersection"
+  },
+  "tail_condition_mentions": {
+    "category": "length",
+    "section": "31.0",
+    "description": "Shared title-condition tokens (lemmatized) found in the last 800 characters.",
+    "source": "lexical intersection"
+  },
+  "severity_with_negation": {
+    "category": "interaction",
+    "section": "32.0",
+    "description": "severity_contradiction AND protocol has any negation.",
+    "source": "product of engineered flags"
+  },
+  "age_condition_conflict": {
+    "category": "interaction",
+    "section": "32.0",
+    "description": "age_contradiction AND condition_overlap -- age rules out the title even though the disease topic itself matches.",
+    "source": "product of engineered flags"
+  },
+  "gender_condition_conflict": {
+    "category": "interaction",
+    "section": "32.0",
+    "description": "gender_contradiction AND condition_overlap. Constant 0 in this dataset (see 33.0 -- gender_contradiction itself is constant 0).",
+    "source": "product of engineered flags"
+  },
+  "missing_with_long_protocol": {
+    "category": "interaction",
+    "section": "32.0",
+    "description": "missing_field_count > 0 AND char_length above the 75th percentile.",
+    "source": "derived"
+  }
+}
