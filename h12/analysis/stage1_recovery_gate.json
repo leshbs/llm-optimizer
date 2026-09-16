@@ -1,0 +1,25 @@
+{
+  "status": "PENDING_NO_PROBE_SCORE",
+  "explanation": "Cannot evaluate for collapse: PROBE_C1_SCORE (104.0) has not been entered yet. This gate must be based entirely on the observed Probe B leaderboard score, never estimated offline.",
+  "offline_m1_reference": 0.4648142133801812,
+  "leaderboard_m1_classical": null,
+  "stage1_point_gap": null,
+  "collapse_detected": null,
+  "options": [
+    {
+      "option": 1,
+      "name": "LLM replacement",
+      "description": "Replace C1 with the LLM Stage1 pipeline (H11/H12 Part 2) in production -- fastest to deploy since it already exists and is cached, but carries the LLM's own uncalibrated bias (H11 Part 3, question 3) and per-call cost."
+    },
+    {
+      "option": 2,
+      "name": "Dictionary reconstruction",
+      "description": "Attempt to reconstruct enough of the corrupted train_stage1.csv vocabulary (e.g. cross-referencing the intact test_stage1.csv vocabulary, or an external Russian medical-terminology dictionary) to retrain a classical model on cleaner text. ALLOWED ONLY under a strict time-box (recommended: <= 3 engineering-days) given the uncertain payoff -- abandon and fall back to option 1 or 3 if the time-box expires without a working reconstruction."
+    },
+    {
+      "option": 3,
+      "name": "Keep classical",
+      "description": "Keep C1 unchanged and accept the collapse -- appropriate if neither replacement candidate can be validated in time, or if Stage1's 30% metric weight makes the risk of an untested replacement worse than the known collapse."
+    }
+  ]
+}

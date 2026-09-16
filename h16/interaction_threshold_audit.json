@@ -1,0 +1,153 @@
+{
+  "interactions": {
+    "label_entropy_bits": 0.7541914236311384,
+    "max_synergy_bits": 0.00010731356375848211,
+    "max_synergy_pair": "age_category x has_digit",
+    "n_pairs_with_positive_synergy": 1,
+    "n_pairs": 10,
+    "table": [
+      {
+        "pair": "age_category x has_digit",
+        "mi_a": 0.0222,
+        "mi_b": 0.0283,
+        "mi_joint": 0.0506,
+        "synergy_bits": 0.0001,
+        "synergy_pct_of_entropy": 0.0001
+      },
+      {
+        "pair": "age_category x n_words_bucket",
+        "mi_a": 0.0222,
+        "mi_b": 0.2244,
+        "mi_joint": 0.2442,
+        "synergy_bits": -0.0024,
+        "synergy_pct_of_entropy": -0.0032
+      },
+      {
+        "pair": "depth x has_digit",
+        "mi_a": 0.0808,
+        "mi_b": 0.0283,
+        "mi_joint": 0.1067,
+        "synergy_bits": -0.0024,
+        "synergy_pct_of_entropy": -0.0032
+      },
+      {
+        "pair": "depth x age_category",
+        "mi_a": 0.0808,
+        "mi_b": 0.0222,
+        "mi_joint": 0.0979,
+        "synergy_bits": -0.0051,
+        "synergy_pct_of_entropy": -0.0068
+      },
+      {
+        "pair": "decode_status x age_category",
+        "mi_a": 0.1807,
+        "mi_b": 0.0222,
+        "mi_joint": 0.1965,
+        "synergy_bits": -0.0064,
+        "synergy_pct_of_entropy": -0.0085
+      },
+      {
+        "pair": "decode_status x has_digit",
+        "mi_a": 0.1807,
+        "mi_b": 0.0283,
+        "mi_joint": 0.1945,
+        "synergy_bits": -0.0144,
+        "synergy_pct_of_entropy": -0.0191
+      },
+      {
+        "pair": "n_words_bucket x has_digit",
+        "mi_a": 0.2244,
+        "mi_b": 0.0283,
+        "mi_joint": 0.2293,
+        "synergy_bits": -0.0233,
+        "synergy_pct_of_entropy": -0.0309
+      },
+      {
+        "pair": "decode_status x depth",
+        "mi_a": 0.1807,
+        "mi_b": 0.0808,
+        "mi_joint": 0.2191,
+        "synergy_bits": -0.0424,
+        "synergy_pct_of_entropy": -0.0562
+      },
+      {
+        "pair": "depth x n_words_bucket",
+        "mi_a": 0.0808,
+        "mi_b": 0.2244,
+        "mi_joint": 0.2612,
+        "synergy_bits": -0.044,
+        "synergy_pct_of_entropy": -0.0583
+      },
+      {
+        "pair": "decode_status x n_words_bucket",
+        "mi_a": 0.1807,
+        "mi_b": 0.2244,
+        "mi_joint": 0.2675,
+        "synergy_bits": -0.1376,
+        "synergy_pct_of_entropy": -0.1824
+      }
+    ]
+  },
+  "threshold": {
+    "shipped_threshold": 0.76,
+    "m1_at_shipped_pooled": 0.6974546769281975,
+    "best_global_threshold": 0.73,
+    "m1_at_best_global": 0.7089718422965562,
+    "global_gain_if_oracle": 0.011517165368358673,
+    "oracle_per_fold_thresholds": [
+      0.85,
+      0.58,
+      0.73,
+      0.87,
+      0.73
+    ],
+    "oracle_threshold_spread": 0.29000000000000004,
+    "mean_per_fold_oracle_gap": 0.04804267053475433,
+    "plateau_width_within_0.01_of_best": 9,
+    "folds": [
+      {
+        "fold": 1,
+        "oracle_threshold": 0.85,
+        "m1_at_oracle": 0.7456,
+        "m1_at_shipped": 0.6577,
+        "gap": 0.0878
+      },
+      {
+        "fold": 2,
+        "oracle_threshold": 0.58,
+        "m1_at_oracle": 0.7318,
+        "m1_at_shipped": 0.6702,
+        "gap": 0.0615
+      },
+      {
+        "fold": 3,
+        "oracle_threshold": 0.73,
+        "m1_at_oracle": 0.7017,
+        "m1_at_shipped": 0.6736,
+        "gap": 0.0281
+      },
+      {
+        "fold": 4,
+        "oracle_threshold": 0.87,
+        "m1_at_oracle": 0.744,
+        "m1_at_shipped": 0.694,
+        "gap": 0.05
+      },
+      {
+        "fold": 5,
+        "oracle_threshold": 0.73,
+        "m1_at_oracle": 0.805,
+        "m1_at_shipped": 0.7922,
+        "gap": 0.0128
+      }
+    ]
+  },
+  "ensemble": {
+    "test_disagreement_rate": 0.05203619909502263,
+    "n_test_rows_disagreeing": 23,
+    "mean_abs_proba_gap_on_disagreements": 0.25870951007844917,
+    "fold_score_correlation": 0.3398656429445355,
+    "h15_wins_folds": 4,
+    "h15_oof_proba_cached": false
+  }
+}

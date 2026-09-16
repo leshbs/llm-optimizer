@@ -1,0 +1,19 @@
+{
+  "id": 582,
+  "sample_index": 1,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.3,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The title specifies the patient group as children, indicating a treatment principle intended for a specific age group.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The title specifies the patient group as children, indicating a treatment principle intended for a specific age group."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 0.9498344999883557,
+  "prompt_tokens": 488,
+  "completion_tokens": 40,
+  "timestamp": "2026-09-15T11:25:58Z"
+}

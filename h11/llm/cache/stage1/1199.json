@@ -1,0 +1,14 @@
+{
+  "id": 1199,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'Инфекционный эндокардит протезированных клапанов' which indicates a focus on a specific condition (infective endocarditis of prosthetic valves), suggesting it is intended for a particular patient group.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'Инфекционный эндокардит протезированных клапанов' which indicates a focus on a specific condition (infective endocarditis of prosthetic valves), suggesting it is intended for a particular patient group."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:04Z"
+}

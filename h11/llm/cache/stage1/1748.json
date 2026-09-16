@@ -1,0 +1,14 @@
+{
+  "id": 1748,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The title specifies 'Сахарный диабет 1 типа у взрослых' which indicates that the subsection is focused on treatment for adults with type 1 diabetes, making it a special category.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The title specifies 'Сахарный диабет 1 типа у взрослых' which indicates that the subsection is focused on treatment for adults with type 1 diabetes, making it a special category."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:13Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 576,
+  "sample_index": 4,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.9,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.95, \"reasoning\": \"The patient's age of 44.0 indicates she is not in postmenopause, which is a direct contradiction to the title's condition.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.95,
+    "reasoning": "The patient's age of 44.0 indicates she is not in postmenopause, which is a direct contradiction to the title's condition."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0322617000056198,
+  "prompt_tokens": 3251,
+  "completion_tokens": 48,
+  "timestamp": "2026-09-15T11:26:30Z"
+}

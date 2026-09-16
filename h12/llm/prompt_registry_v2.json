@@ -1,0 +1,80 @@
+{
+  "versions": [
+    {
+      "prompt_version": "stage1_v1",
+      "stage": 1,
+      "objective": "Zero-shot General/Special classification from title text only.",
+      "examples_used": 0,
+      "reasoning_style": "short free-text justification, no explicit chain-of-thought",
+      "temperature": 0.0,
+      "model": "gpt-4o-mini",
+      "self_consistency": null,
+      "source": "H11 Part 2 (82.0)"
+    },
+    {
+      "prompt_version": "stage2_v1",
+      "stage": 2,
+      "objective": "Zero-shot Applicable/Not-applicable classification from structured fields only.",
+      "examples_used": 0,
+      "reasoning_style": "short free-text justification referencing the driving field",
+      "temperature": 0.0,
+      "model": "gpt-4o-mini",
+      "self_consistency": null,
+      "source": "H11 Part 2 (84.0)"
+    },
+    {
+      "prompt_version": "stage1_fewshot_v1",
+      "stage": 1,
+      "objective": "Few-shot General/Special classification from title text only, 2 hand-authored synthetic illustrative examples (never from train_stage1.csv).",
+      "examples_used": 2,
+      "reasoning_style": "short free-text justification, no explicit chain-of-thought",
+      "temperature": 0.0,
+      "model": "gpt-4o-mini",
+      "self_consistency": {
+        "n_samples": 5,
+        "temperature_schedule": [
+          0.0,
+          0.3,
+          0.5,
+          0.7,
+          0.9
+        ],
+        "aggregation": "majority_vote"
+      },
+      "source": "H12 Part 2 (100.0)"
+    },
+    {
+      "prompt_version": "stage2_fewshot_v1",
+      "stage": 2,
+      "objective": "Few-shot Applicable/Not-applicable classification from structured fields only, 7 category-diverse examples (6 real train_stage2 rows + 1 synthetic gender-contradiction case -- train_stage2 has zero real rows with that flag active).",
+      "examples_used": 7,
+      "reasoning_style": "short free-text justification referencing the driving field",
+      "temperature": 0.0,
+      "model": "gpt-4o-mini",
+      "self_consistency": {
+        "n_samples": 5,
+        "temperature_schedule": [
+          0.0,
+          0.3,
+          0.5,
+          0.7,
+          0.9
+        ],
+        "aggregation": "majority_vote"
+      },
+      "source": "H12 Part 2 (100.0)"
+    }
+  ],
+  "self_consistency_default_settings": {
+    "n_samples": 5,
+    "temperature_schedule": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "aggregation": "majority_vote",
+    "tie_break": "ties (sum(preds) == n_samples/2) resolve to 1 (Applicable/Special) -- the recall-favoring class, consistent with CLAUDE.md's conservative-Stage2 principle."
+  }
+}

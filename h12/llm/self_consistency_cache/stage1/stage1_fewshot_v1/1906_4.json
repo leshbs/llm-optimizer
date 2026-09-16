@@ -1,0 +1,19 @@
+{
+  "id": 1906,
+  "sample_index": 4,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.9,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.98, \"reasoning\": \"The title specifies a subgroup of patients: those under 65 years old with a preserved somatic status, indicating a special population rather than a general approach.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.98,
+    "reasoning": "The title specifies a subgroup of patients: those under 65 years old with a preserved somatic status, indicating a special population rather than a general approach."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 0.9554956999927526,
+  "prompt_tokens": 523,
+  "completion_tokens": 51,
+  "timestamp": "2026-09-15T11:26:17Z"
+}

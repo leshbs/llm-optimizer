@@ -1,0 +1,14 @@
+{
+  "id": 573,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is 23 years old, which falls within the adult age category, and the diagnosis code K50.1 indicates Crohn's disease, which aligns with the guideline's focus on surgical treatment for perianal manifestations.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is 23 years old, which falls within the adult age category, and the diagnosis code K50.1 indicates Crohn's disease, which aligns with the guideline's focus on surgical treatment for perianal manifestations."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:33Z"
+}

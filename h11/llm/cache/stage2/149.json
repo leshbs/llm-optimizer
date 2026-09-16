@@ -1,0 +1,14 @@
+{
+  "id": 149,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient's age is 20 years, which falls within the adult category, and there are no contradictions in the provided structured fields.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient's age is 20 years, which falls within the adult category, and there are no contradictions in the provided structured fields."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:33Z"
+}

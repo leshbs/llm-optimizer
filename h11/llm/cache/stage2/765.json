@@ -1,0 +1,14 @@
+{
+  "id": 765,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is 89 years old and has a diagnosis of chronic heart failure (I50.0), which aligns with the guideline's focus on adults with symptomatic heart failure and left ventricular systolic dysfunction.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is 89 years old and has a diagnosis of chronic heart failure (I50.0), which aligns with the guideline's focus on adults with symptomatic heart failure and left ventricular systolic dysfunction."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:34Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": 1417,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'выбор метода лечения в зависимости от стадии заболевания' which implies that the treatment method is tailored based on the disease stage, indicating a special consideration for a specific patient group (men with germ cell tumors).\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'выбор метода лечения в зависимости от стадии заболевания' which implies that the treatment method is tailored based on the disease stage, indicating a special consideration for a specific patient group (men with germ cell tumors)."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:26Z"
+}

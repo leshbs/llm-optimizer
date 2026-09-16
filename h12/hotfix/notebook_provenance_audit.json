@@ -1,0 +1,55 @@
+{
+  "cells_audited": [
+    {
+      "filename": "probe_stage2_only.csv",
+      "dataframe_variable": "probe_a_df",
+      "generating_cell_id": "sec77code",
+      "cell_positional_index": 338,
+      "written_filename_literal": "probe_stage2_only.csv",
+      "filename_matches_manifest": true,
+      "file_mtime_utc": "2026-09-15T01:25:53Z"
+    },
+    {
+      "filename": "probe_stage1_only.csv",
+      "dataframe_variable": "probe_b_df",
+      "generating_cell_id": "sec78code",
+      "cell_positional_index": 341,
+      "written_filename_literal": "probe_stage1_only.csv",
+      "filename_matches_manifest": true,
+      "file_mtime_utc": "2026-09-15T01:25:53Z"
+    },
+    {
+      "filename": "probe_trivial.csv",
+      "dataframe_variable": "probe_c_df",
+      "generating_cell_id": "sec79code",
+      "cell_positional_index": 344,
+      "written_filename_literal": "probe_trivial.csv",
+      "filename_matches_manifest": true,
+      "file_mtime_utc": "2026-09-15T01:25:53Z"
+    },
+    {
+      "filename": "probe_llm_stage1.csv",
+      "dataframe_variable": "probe_llm_s1_df",
+      "generating_cell_id": "sec95code",
+      "cell_positional_index": 401,
+      "written_filename_literal": "probe_llm_stage1.csv",
+      "filename_matches_manifest": true,
+      "file_mtime_utc": "2026-09-15T12:14:36Z"
+    },
+    {
+      "filename": "probe_llm_stage2.csv",
+      "dataframe_variable": "probe_llm_s2_df",
+      "generating_cell_id": "sec96code",
+      "cell_positional_index": 404,
+      "written_filename_literal": "probe_llm_stage2.csv",
+      "filename_matches_manifest": true,
+      "file_mtime_utc": "2026-09-15T12:14:36Z"
+    }
+  ],
+  "execution_order_caveat": "execution_count is None for every cell in this notebook (never run via a live Jupyter kernel -- only via out-of-band verification harnesses that exec() extracted cell source). cell_positional_index (list order in baseline.ipynb) is used as the execution-order proxy.",
+  "overwrite_incident": "h12/probes/ was found empty prior to this audit (probe_llm_stage1.csv/probe_llm_stage2.csv deleted by an earlier verification script's rm -rf h12) and was restored by re-running H12 Part 1's unchanged cells 95.0/96.0; restored checksums matched the originally-documented ones exactly. See file_mtime_utc above for the real restoration timestamps.",
+  "builds_fresh_dataframe_confirmed": true,
+  "variable_name_collisions": [],
+  "issues": [],
+  "audit_passed": true
+}

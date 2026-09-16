@@ -1,0 +1,11 @@
+probe_name,stage,stage_role,n_changed,pct_changed,n_unchanged,expected_trivial_labels,unexpected_identical_labels,matches_expectation
+probe_stage1_only.csv,1,unchanged,0,0.0,442,,,True
+probe_stage1_only.csv,2,trivial,79,45.66,94,173.0,94.0,True
+probe_stage2_only.csv,1,trivial,26,5.88,416,442.0,416.0,True
+probe_stage2_only.csv,2,unchanged,0,0.0,173,,,True
+probe_trivial.csv,1,trivial,26,5.88,416,442.0,416.0,True
+probe_trivial.csv,2,trivial,79,45.66,94,173.0,94.0,True
+probe_llm_stage1.csv,1,replaced,276,62.44,166,,,True
+probe_llm_stage1.csv,2,trivial,79,45.66,94,173.0,94.0,True
+probe_llm_stage2.csv,1,trivial,26,5.88,416,442.0,416.0,True
+probe_llm_stage2.csv,2,replaced,68,39.31,105,,,True

@@ -1,0 +1,14 @@
+{
+  "id": 778,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is an adult male (age 62) with a diagnosis of urinary stone disease (N20.0), which aligns with the guideline's focus on adults with this condition.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is an adult male (age 62) with a diagnosis of urinary stone disease (N20.0), which aligns with the guideline's focus on adults with this condition."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:32Z"
+}

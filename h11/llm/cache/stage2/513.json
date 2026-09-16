@@ -1,0 +1,14 @@
+{
+  "id": 513,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The title specifies 'Эндометриоз в постменопаузе', while the patient is 42 years old and likely premenopausal, which directly contradicts the postmenopausal condition.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The title specifies 'Эндометриоз в постменопаузе', while the patient is 42 years old and likely premenopausal, which directly contradicts the postmenopausal condition."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:23Z"
+}

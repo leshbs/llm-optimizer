@@ -1,0 +1,19 @@
+{
+  "id": 328,
+  "sample_index": 1,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.3,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The patient's age and diagnosis do not contradict the title's conditions, and there is no indication of any exclusion based on gender or other factors.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The patient's age and diagnosis do not contradict the title's conditions, and there is no indication of any exclusion based on gender or other factors."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.1200520999991568,
+  "prompt_tokens": 3194,
+  "completion_tokens": 48,
+  "timestamp": "2026-09-15T11:26:44Z"
+}

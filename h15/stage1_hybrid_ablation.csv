@@ -1,0 +1,7 @@
+config,blocks,m1_at_050,m1_tuned,threshold
+invariant_only (= H14),invariant,0.6361089259031962,0.7089718422965562,0.73
++ conditions,invariant+conditions,0.6322214650901192,0.7366437233693871,0.74
++ lex_subsection,invariant+lex_subsection,0.626278064453456,0.705834634549379,0.74
++ lex_both,invariant+lex_subsection+lex_context,0.6731765211759333,0.7447380184920979,0.68
+full hybrid,invariant+lex_subsection+lex_context+conditions,0.6845767834252723,0.7767858296172786,0.74
+decoded_only (no invariant),lex_subsection+lex_context+conditions,0.4782073268075088,0.631767890772128,0.75

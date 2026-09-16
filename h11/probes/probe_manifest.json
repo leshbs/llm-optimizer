@@ -1,0 +1,38 @@
+{
+  "probes": [
+    {
+      "name": "Probe A -- Stage2 Isolation",
+      "filename": "probe_stage2_only.csv",
+      "stage1_source": "trivial (all 'General'/0, ignores C1 entirely)",
+      "stage2_source": "production G predictions (final/predictions/stage2_predictions.csv, unchanged)",
+      "threshold": 0.5,
+      "checksum": "31bcf8a056bc13c5325b533977f7ca3ba86fabd05e5c2758d7f89c71772ddc52",
+      "hypothesis": "With Stage1 held at a constant trivial baseline, any leaderboard score above the trivial floor is attributable to Stage2 (G)'s real predictive contribution.",
+      "expected_leaderboard_interpretation": "Leaderboard score reflects M2's weighted contribution (0.7 of total) plus Stage1's trivial M1 contribution (0.3 * M1_trivial, expected near the M1 floor); isolates G's real skill from C1's.",
+      "n_rows": 615
+    },
+    {
+      "name": "Probe B -- Stage1 Isolation",
+      "filename": "probe_stage1_only.csv",
+      "stage1_source": "production C1 predictions (final/predictions/stage1_predictions.csv, unchanged)",
+      "stage2_source": "trivial (all 'Applicable'/1, ignores G entirely)",
+      "threshold": 0.5,
+      "checksum": "71bd840ceced1e604eba2e6fbc36ce66a1ae2c2b2b6a84357ef0c7b34015841d",
+      "hypothesis": "With Stage2 held at a constant trivial baseline, any leaderboard score above the trivial floor is attributable to Stage1 (C1)'s real predictive contribution.",
+      "expected_leaderboard_interpretation": "Leaderboard score reflects M1's weighted contribution (0.3 of total) plus Stage2's trivial M2 contribution (0.7 * M2_trivial, expected near/at the M2 floor since 'always Applicable' clips M2 to 0 per CLAUDE.md); isolates C1's real skill from G's.",
+      "n_rows": 615
+    },
+    {
+      "name": "Probe C -- Trivial Sanity Probe (optional)",
+      "filename": "probe_trivial.csv",
+      "stage1_source": "trivial (all 'General'/0)",
+      "stage2_source": "trivial (all 'Applicable'/1)",
+      "threshold": 0.5,
+      "checksum": "60e0bb3330db7a0c4661396af4e14d57414d0d3ab670ee547abaf5a53a37f7bb",
+      "hypothesis": "A pure floor check: neither model is used at all. Confirms the submission pipeline and scoring formula behave as expected on a fully trivial baseline before trusting Probes A/B's isolated readings.",
+      "expected_leaderboard_interpretation": "Expected leaderboard score approximately at the metric's floor (M1 from 'always General', M2 clipped to 0 from 'always Applicable' per CLAUDE.md's macro-F2 formula) -- i.e., near zero total points, not exactly zero.",
+      "n_rows": 615
+    }
+  ],
+  "production_config_reference": "final/config/final_config.json"
+}

@@ -1,0 +1,14 @@
+{
+  "id": 1080,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The title indicates a treatment section that applies to both adults and children without specifying any particular condition or severity, suggesting it is intended for a general patient population.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The title indicates a treatment section that applies to both adults and children without specifying any particular condition or severity, suggesting it is intended for a general patient population."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:28Z"
+}

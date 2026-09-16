@@ -1,0 +1,14 @@
+{
+  "id": 1289,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The title specifies 'Возрастная категория: Взрослые', indicating that the subsection is focused on a specific age group, which classifies it as Special.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The title specifies 'Возрастная категория: Взрослые', indicating that the subsection is focused on a specific age group, which classifies it as Special."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:53Z"
+}

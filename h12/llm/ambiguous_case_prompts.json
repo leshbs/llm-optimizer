@@ -1,0 +1,182 @@
+{
+  "purpose": "Evaluate LLM reasoning diversity on known-hard train_stage2 cases only -- ground_truth_label is shown for qualitative comparison and is never used to tune prompts, thresholds, or any cached prediction.",
+  "cases": [
+    {
+      "id": 525,
+      "ground_truth_label": 1,
+      "fields": {
+        "title_text": "Клинические рекомендации \"Гонартроз\"\nВозрастная категория: Взрослые и дети\n# Лечение\n## Хирургическое лечение\n### Особенности органосохраняющего оперативного лечения у детей с гонартрозом",
+        "title_gender_condition": "не указано",
+        "title_age_condition": "не указано",
+        "protocol_gender": "M",
+        "protocol_age": 73.0,
+        "diagnosis": "M17.1",
+        "complaints": "не указано",
+        "history": "не указано",
+        "objective_status": "не указано"
+      },
+      "majority_prediction": 0,
+      "agreement_rate": 1.0,
+      "samples": [
+        {
+          "sample_index": 0,
+          "temperature": 0.0,
+          "prediction": 0,
+          "confidence": 0.95,
+          "reasoning": "The title specifies a focus on children with gonarthrosis, while the patient is 73 years old, which is a direct contradiction.",
+          "error": null
+        },
+        {
+          "sample_index": 1,
+          "temperature": 0.3,
+          "prediction": 0,
+          "confidence": 0.95,
+          "reasoning": "The title specifically addresses children with gonarthrosis, while the patient is 73 years old, which is a clear contradiction.",
+          "error": null
+        },
+        {
+          "sample_index": 2,
+          "temperature": 0.5,
+          "prediction": 0,
+          "confidence": 0.95,
+          "reasoning": "The title specifies a treatment for children, while the patient's age indicates they are an adult, creating a direct contradiction.",
+          "error": null
+        },
+        {
+          "sample_index": 3,
+          "temperature": 0.7,
+          "prediction": 0,
+          "confidence": 0.95,
+          "reasoning": "The title specifically addresses children with gonarthrosis, while the patient's age indicates they are an adult, creating a direct contradiction.",
+          "error": null
+        },
+        {
+          "sample_index": 4,
+          "temperature": 0.9,
+          "prediction": 0,
+          "confidence": 0.95,
+          "reasoning": "The title specifies treatment for children, but the patient's age field indicates he is an adult, creating a direct contradiction.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "ground_truth_label": 1,
+      "fields": {
+        "title_text": "Клинические рекомендации \"Бронхиальная астма\"\nВозрастная категория: Взрослые и дети\n# Лечение\n## Особенности лечения БА у беременных и в период грудного вскармливания",
+        "title_gender_condition": "F",
+        "title_age_condition": "не указано",
+        "protocol_gender": "не указано",
+        "protocol_age": 29.0,
+        "diagnosis": "не указано",
+        "complaints": "заложенность носа, эпизоды одышки и кашля Пациент. Возраст 29 лет. Проживает в Московской области.  Курение отрицает. Наличие хронических заболеваний – БА.  На данный момент ЛС, БАДы не принимает. Лекарственная аллергия – отрицает. Пищевая непереносимость  -отрицает. Контакт с животными ранее  - попугай. Сейчас дома 2 кошки.  С 5 лет аллергия в  весенний сезон (береза, дуб). Получал лечение - асит с эффектом. Бронхиальная астма с 5 лет.  Базисную терапию за последгий год  не получал.  Сейчас с августа летом возникли симптомы - бронхоспазмы, насморк. Начал принимать монтелар 10 мг, получал меся",
+        "history": "не указано",
+        "objective_status": "не указано"
+      },
+      "majority_prediction": 1,
+      "agreement_rate": 1.0,
+      "samples": [
+        {
+          "sample_index": 0,
+          "temperature": 0.0,
+          "prediction": 1,
+          "confidence": 0.85,
+          "reasoning": "The patient's age is not a contradiction, and while gender is unspecified, it does not directly contradict the title's condition for treatment in pregnant women or breastfeeding.",
+          "error": null
+        },
+        {
+          "sample_index": 1,
+          "temperature": 0.3,
+          "prediction": 1,
+          "confidence": 0.85,
+          "reasoning": "The patient's gender is unspecified, which does not contradict the title's condition for women -- defaults to applicable.",
+          "error": null
+        },
+        {
+          "sample_index": 2,
+          "temperature": 0.5,
+          "prediction": 1,
+          "confidence": 0.85,
+          "reasoning": "The patient's gender is not specified, so there is insufficient information to determine a contradiction with the title's condition regarding treatment for pregnant women.",
+          "error": null
+        },
+        {
+          "sample_index": 3,
+          "temperature": 0.7,
+          "prediction": 1,
+          "confidence": 0.9,
+          "reasoning": "While the patient's gender is unspecified, there is no direct contradiction to the title's condition; thus, it defaults to Applicable.",
+          "error": null
+        },
+        {
+          "sample_index": 4,
+          "temperature": 0.9,
+          "prediction": 1,
+          "confidence": 0.85,
+          "reasoning": "The patient's age and the lack of information about pregnancy do not contradict the title's conditions; the gender is unspecified, which does not negate applicability.",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "ground_truth_label": 1,
+      "fields": {
+        "title_text": "Клинические рекомендации \"Бронхиальная астма\"\nВозрастная категория: Взрослые и дети\n# Лечение\n## Особенности лечения БА у беременных и в период грудного вскармливания",
+        "title_gender_condition": "F",
+        "title_age_condition": "не указано",
+        "protocol_gender": "не указано",
+        "protocol_age": 29.0,
+        "diagnosis": "не указано",
+        "complaints": "заложенность носа, эпизоды одышки и кашля Пациент. Возраст 29 лет. Проживает в Московской области.  Курение отрицает. Наличие хронических заболеваний – БА.  На данный момент ЛС, БАДы не принимает. Лекарственная аллергия – отрицает. Пищевая непереносимость  -отрицает. Контакт с животными ранее  - попугай. Сейчас дома 2 кошки.  С 5 лет аллергия в  весенний сезон (береза, дуб). Получал лечение - асит с эффектом. Бронхиальная астма с 5 лет.  Базисную терапию за последний год  не получал.  Сейчас с августа летом возникли симптомы - бронхоспазмы, насморк. Начал принимать монтелар 10 мг, получал меся",
+        "history": "не указано",
+        "objective_status": "не указано"
+      },
+      "majority_prediction": 1,
+      "agreement_rate": 1.0,
+      "samples": [
+        {
+          "sample_index": 0,
+          "temperature": 0.0,
+          "prediction": 1,
+          "confidence": 0.85,
+          "reasoning": "The patient's gender is not specified, which does not contradict the title's condition for treatment in pregnant women or breastfeeding, thus it is applicable.",
+          "error": null
+        },
+        {
+          "sample_index": 1,
+          "temperature": 0.3,
+          "prediction": 1,
+          "confidence": 0.85,
+          "reasoning": "The patient's gender is not specified, which does not contradict the title's condition regarding treatment for pregnant women or breastfeeding mothers.",
+          "error": null
+        },
+        {
+          "sample_index": 2,
+          "temperature": 0.5,
+          "prediction": 1,
+          "confidence": 0.85,
+          "reasoning": "The patient's gender is unspecified, which does not contradict the title's female condition -- defaults to applicable due to missing information.",
+          "error": null
+        },
+        {
+          "sample_index": 3,
+          "temperature": 0.7,
+          "prediction": 1,
+          "confidence": 0.9,
+          "reasoning": "The gender field is not specified, which does not contradict the title's condition; thus, it is applicable based on the age and lack of contradiction.",
+          "error": null
+        },
+        {
+          "sample_index": 4,
+          "temperature": 0.9,
+          "prediction": 1,
+          "confidence": 0.85,
+          "reasoning": "Although the patient's gender is unspecified, the title's age condition is not contradicted, and there is no clear indication that the patient does not fall into the applicable group for treatment during pregnancy or breastfeeding.",
+          "error": null
+        }
+      ]
+    }
+  ]
+}

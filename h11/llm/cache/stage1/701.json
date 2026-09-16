@@ -1,0 +1,14 @@
+{
+  "id": 701,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'Болезнь Паркинсона' and is categorized under 'Возрастная категория: Взрослые', indicating it is focused on a specific patient group (adults with Parkinson's disease), thus classifying it as Special.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'Болезнь Паркинсона' and is categorized under 'Возрастная категория: Взрослые', indicating it is focused on a specific patient group (adults with Parkinson's disease), thus classifying it as Special."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:06Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": 1929,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The title specifies 'Сальмонеллез у детей' (Salmonellosis in children), indicating that the subsection is focused on a specific patient group, which is children.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The title specifies 'Сальмонеллез у детей' (Salmonellosis in children), indicating that the subsection is focused on a specific patient group, which is children."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:01Z"
+}

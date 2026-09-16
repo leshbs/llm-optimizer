@@ -1,0 +1,14 @@
+{
+  "id": 251,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The title indicates that the subsection on emergency care applies to both adults and children, suggesting it is intended for a broad patient population rather than a specific subgroup.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The title indicates that the subsection on emergency care applies to both adults and children, suggesting it is intended for a broad patient population rather than a specific subgroup."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:39Z"
+}

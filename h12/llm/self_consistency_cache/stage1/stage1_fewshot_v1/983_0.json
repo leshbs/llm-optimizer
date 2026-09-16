@@ -1,0 +1,19 @@
+{
+  "id": 983,
+  "sample_index": 0,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The title specifies 'Беременные' (Pregnant), indicating a specific patient group, thus classifying it as Special.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The title specifies 'Беременные' (Pregnant), indicating a specific patient group, thus classifying it as Special."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 4.2309915000078036,
+  "prompt_tokens": 495,
+  "completion_tokens": 45,
+  "timestamp": "2026-09-15T11:25:50Z"
+}

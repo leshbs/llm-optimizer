@@ -1,0 +1,19 @@
+{
+  "id": 328,
+  "sample_index": 3,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.7,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"No structured field contradicts the title's condition, and the patient's age and diagnosis align with the guideline's focus.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "No structured field contradicts the title's condition, and the patient's age and diagnosis align with the guideline's focus."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 0.9327087999990908,
+  "prompt_tokens": 3194,
+  "completion_tokens": 43,
+  "timestamp": "2026-09-15T11:26:46Z"
+}

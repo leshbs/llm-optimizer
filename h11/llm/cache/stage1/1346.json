@@ -1,0 +1,14 @@
+{
+  "id": 1346,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Диетическое лечебное питание' does not specify any particular age group or condition beyond the general category of 'adults and children', indicating it applies broadly to all patients.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Диетическое лечебное питание' does not specify any particular age group or condition beyond the general category of 'adults and children', indicating it applies broadly to all patients."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:10Z"
+}

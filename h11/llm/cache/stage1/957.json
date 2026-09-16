@@ -1,0 +1,14 @@
+{
+  "id": 957,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Антибактериальная терапия' does not specify any particular patient group or condition beyond the general context of treating sepsis and septic shock, which applies broadly to both adults and children.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Антибактериальная терапия' does not specify any particular patient group or condition beyond the general context of treating sepsis and septic shock, which applies broadly to both adults and children."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:07Z"
+}

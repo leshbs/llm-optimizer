@@ -1,0 +1,19 @@
+{
+  "filename": "canary_extreme_floor.csv",
+  "checksum": "e315127f5a8ba44fe1a8ab71a692e16b1cae91486164a113366cbef12b66b2bb",
+  "hypothesis": "Predicting the OPPOSITE of every trivial baseline used elsewhere (Stage1='Special' for every row, Stage2='Not applicable' for every row) floods each stage's minority-support class, which should produce a near-floor score on BOTH stages -- lower than Probe C's own trivial baseline, and structurally uncorrelated with the checkpoint or any real model's predictions. If the platform reports a score anywhere near the checkpoint's or Probe C's score for this file, that is strong evidence the platform is not actually scoring the uploaded file's content.",
+  "expected_score_qualitative": "extremely low (near the metric floor for both stages)",
+  "expected_score_theoretical_range": [
+    0.0,
+    70.0
+  ],
+  "purpose": "Canary: verify the platform differentiates uploaded files by content rather than returning a cached/best score regardless of what was uploaded.",
+  "no_automatic_upload": true,
+  "upload_checklist": [
+    "1. Manually upload h12/platform/canary/canary_extreme_floor.csv to the competition platform.",
+    "2. Record the platform's reported submission id and timestamp.",
+    "3. Add a new row to h12/platform/submission_history.csv (119.0) with this file's real score.",
+    "4. Re-run 120.0-123.0 -- the diagnosis engine automatically compares the observed score against this file's 'extremely low' hypothesis.",
+    "5. Do NOT treat this submission as a production candidate -- it exists only to test platform behavior."
+  ]
+}

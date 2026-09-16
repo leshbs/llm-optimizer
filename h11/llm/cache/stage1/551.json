@@ -1,0 +1,14 @@
+{
+  "id": 551,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies a treatment method for abnormal uterine bleeding (АМК) in the context of tamoxifen therapy, which suggests it is intended for a specific patient group undergoing this particular treatment.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies a treatment method for abnormal uterine bleeding (АМК) in the context of tamoxifen therapy, which suggests it is intended for a specific patient group undergoing this particular treatment."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:12Z"
+}

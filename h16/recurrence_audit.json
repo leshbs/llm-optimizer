@@ -1,0 +1,85 @@
+{
+  "base_entropy_bits": 0.7541914236311384,
+  "candidate_count_histogram": {
+    "0": 844,
+    "1": 339,
+    "2": 84,
+    "3": 19,
+    "4": 194,
+    "5": 255,
+    "6": 32
+  },
+  "rarity_quantiles": {
+    "0.1": 0.0,
+    "0.25": 0.0,
+    "0.5": 1.0,
+    "0.75": 4.0,
+    "0.9": 5.0
+  },
+  "ambiguity_rate": 0.33050367855121676,
+  "decode_entropy_bits_mean": 0.6660581503865626,
+  "label_rate_per_count": [
+    {
+      "n_candidates": 0,
+      "n_rows": 844,
+      "special_rate": 0.40639810426540285
+    },
+    {
+      "n_candidates": 1,
+      "n_rows": 339,
+      "special_rate": 0.11209439528023599
+    },
+    {
+      "n_candidates": 2,
+      "n_rows": 84,
+      "special_rate": 0.011904761904761904
+    },
+    {
+      "n_candidates": 3,
+      "n_rows": 19,
+      "special_rate": 0.0
+    },
+    {
+      "n_candidates": 4,
+      "n_rows": 194,
+      "special_rate": 0.0
+    },
+    {
+      "n_candidates": 5,
+      "n_rows": 255,
+      "special_rate": 0.00392156862745098
+    },
+    {
+      "n_candidates": 6,
+      "n_rows": 32,
+      "special_rate": 0.0
+    }
+  ],
+  "mutual_information_bits": {
+    "binary (matched / not)": 0.15424423448640168,
+    "shipped H15 flags": 0.18067715216436242,
+    "3-level (0 / 1 / >1)": 0.18067715216436242,
+    "4-level (0 / 1 / 2-3 / 4+)": 0.18112244701055868,
+    "full count (capped at 10)": 0.1818087232695177
+  },
+  "mi_gain_over_shipped": {
+    "binary (matched / not)": -0.026432917677960743,
+    "shipped H15 flags": 0.0,
+    "3-level (0 / 1 / >1)": 0.0,
+    "4-level (0 / 1 / 2-3 / 4+)": 0.0004452948461962647,
+    "full count (capped at 10)": 0.0011315711051552713
+  },
+  "mi_as_pct_of_label_entropy": {
+    "binary (matched / not)": 0.20451602823030746,
+    "shipped H15 flags": 0.23956405032355338,
+    "3-level (0 / 1 / >1)": 0.23956405032355338,
+    "4-level (0 / 1 / 2-3 / 4+)": 0.24015447714656385,
+    "full count (capped at 10)": 0.24106442684561352
+  },
+  "within_matched": {
+    "n": 923,
+    "entropy_bits": 0.25738813232715013,
+    "mi_of_count_bits": 0.052769720129757086,
+    "special_rate": 0.04333694474539545
+  }
+}

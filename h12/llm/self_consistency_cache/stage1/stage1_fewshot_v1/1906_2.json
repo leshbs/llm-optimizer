@@ -1,0 +1,19 @@
+{
+  "id": 1906,
+  "sample_index": 2,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.5,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The title specifies a patient group that is younger than 65 years with a specific somatic status, indicating it is intended for a specific subgroup rather than the general population.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The title specifies a patient group that is younger than 65 years with a specific somatic status, indicating it is intended for a specific subgroup rather than the general population."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 0.9990780999942217,
+  "prompt_tokens": 523,
+  "completion_tokens": 54,
+  "timestamp": "2026-09-15T11:26:15Z"
+}

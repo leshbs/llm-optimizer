@@ -1,0 +1,14 @@
+{
+  "id": 2160,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies treatment for 'легких и средне-тяжелых неосложненных форм гриппа', which indicates a particular severity of the disease, thus classifying it as Special.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies treatment for 'легких и средне-тяжелых неосложненных форм гриппа', which indicates a particular severity of the disease, thus classifying it as Special."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:52Z"
+}

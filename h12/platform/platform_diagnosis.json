@@ -1,0 +1,16 @@
+{
+  "status": "INSUFFICIENT_DATA",
+  "diagnoses": [
+    {
+      "category": "N/A",
+      "name": "Insufficient data",
+      "evidence": [
+        "Only 0 of the 5 named probes have a recorded leaderboard score -- platform behavior has not been exercised enough to diagnose A/B/C/D."
+      ]
+    }
+  ],
+  "n_scored_probes": 0,
+  "platform_state": "UNKNOWN_PLATFORM_BEHAVIOR",
+  "state_reason": "No probe has been submitted and scored yet, so the platform's behavior on differentiated probe files has never been exercised -- absence of evidence is not evidence of correctness.",
+  "leaderboard_interpretation_allowed": false
+}

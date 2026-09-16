@@ -1,0 +1,10 @@
+{
+  "probe_g_t045_overall": 35.63961988304093,
+  "probe_g_t048_overall": 34.44566146027295,
+  "pairwise_gap_overall_points": 1.1939584227679774,
+  "implied_M2_gap": 0.024366498423836272,
+  "conclusion": "t=0.45 outperforms t=0.48 on Stage2 (isolated, since Stage1 is identical trivial in both).",
+  "absolute_comparison_to_current_M2_0_7308": "NOT COMPUTABLE without a trivial-Stage1 + G@0.50 probe score (same pairing) or a direct M1_trivial value -- none available. Not guessed.",
+  "chosen_threshold_for_1C_candidate": 0.45,
+  "decision_rule": "Best of the two tested thresholds by real leaderboard evidence; absolute superiority over 0.50 will be settled by 1C's direct combined-candidate submission instead."
+}

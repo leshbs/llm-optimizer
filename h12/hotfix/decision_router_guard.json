@@ -1,0 +1,9 @@
+{
+  "guard_state": "WAIT_FOR_PLATFORM",
+  "guard_reason": "Probes are valid, but H12 Part 6's platform_diagnosis reports platform_state='UNKNOWN_PLATFORM_BEHAVIOR', not PLATFORM_OK/PLATFORM_SCORE_VIEW_ONLY: No probe has been submitted and scored yet, so the platform's behavior on differentiated probe files has never been exercised -- absence of evidence is not evidence of correctness.",
+  "probe_valid": true,
+  "platform_state": "UNKNOWN_PLATFORM_BEHAVIOR",
+  "platform_ok": false,
+  "source_probe_integrity_gate": "h12/hotfix/probe_integrity_gate.json",
+  "source_platform_diagnosis": "h12/platform/platform_diagnosis.json"
+}

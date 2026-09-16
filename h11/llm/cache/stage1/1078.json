@@ -1,0 +1,14 @@
+{
+  "id": 1078,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies dietary recommendations for a particular deficiency (SCAD), which indicates a focus on a specific condition rather than a general approach applicable to all patients.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies dietary recommendations for a particular deficiency (SCAD), which indicates a focus on a specific condition rather than a general approach applicable to all patients."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:54Z"
+}

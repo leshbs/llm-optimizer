@@ -1,0 +1,14 @@
+{
+  "id": 437,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Консервативное лечение' does not specify any particular age group or condition beyond the general mention of 'взрослые и дети', indicating that the treatment principles apply broadly to both adults and children.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Консервативное лечение' does not specify any particular age group or condition beyond the general mention of 'взрослые и дети', indicating that the treatment principles apply broadly to both adults and children."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:04Z"
+}

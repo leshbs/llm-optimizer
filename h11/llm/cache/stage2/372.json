@@ -1,0 +1,14 @@
+{
+  "id": 372,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is female and 43 years old, which fits the title's gender condition and does not contradict the age condition.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is female and 43 years old, which fits the title's gender condition and does not contradict the age condition."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:14Z"
+}

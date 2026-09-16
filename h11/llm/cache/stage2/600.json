@@ -1,0 +1,14 @@
+{
+  "id": 600,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The title specifies 'Эндометриоз в постменопаузе', and the patient is 39 years old, which indicates she is not in the postmenopausal age group.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The title specifies 'Эндометриоз в постменопаузе', and the patient is 39 years old, which indicates she is not in the postmenopausal age group."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:28Z"
+}

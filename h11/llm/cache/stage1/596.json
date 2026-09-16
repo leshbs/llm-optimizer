@@ -1,0 +1,14 @@
+{
+  "id": 596,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The title discusses radical surgeries for acute paraproctitis without specifying a particular age group or condition severity beyond mentioning both adults and children, indicating a general approach.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The title discusses radical surgeries for acute paraproctitis without specifying a particular age group or condition severity beyond mentioning both adults and children, indicating a general approach."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:42Z"
+}

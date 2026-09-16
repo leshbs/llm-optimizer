@@ -1,0 +1,14 @@
+{
+  "id": 268,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Патогенетическое лечение' does not specify any particular age group or condition severity beyond the general mention of 'взрослые и дети', indicating that the treatment principles apply broadly to all patients with Niemann-Pick disease type C.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Патогенетическое лечение' does not specify any particular age group or condition severity beyond the general mention of 'взрослые и дети', indicating that the treatment principles apply broadly to all patients with Niemann-Pick disease type C."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:37Z"
+}

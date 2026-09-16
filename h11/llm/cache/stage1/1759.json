@@ -1,0 +1,14 @@
+{
+  "id": 1759,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The title specifies 'Дети' (Children) and focuses on surgical treatment for Crohn's disease in this specific age group, indicating it is intended for a particular patient population.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The title specifies 'Дети' (Children) and focuses on surgical treatment for Crohn's disease in this specific age group, indicating it is intended for a particular patient population."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:04Z"
+}

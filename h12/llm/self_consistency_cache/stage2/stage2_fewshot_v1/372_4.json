@@ -1,0 +1,19 @@
+{
+  "id": 372,
+  "sample_index": 4,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.9,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"There are no contradictions in the structured fields that would exclude the patient from the title's conditions, making it applicable.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "There are no contradictions in the structured fields that would exclude the patient from the title's conditions, making it applicable."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0951349999959348,
+  "prompt_tokens": 3235,
+  "completion_tokens": 43,
+  "timestamp": "2026-09-15T11:26:36Z"
+}

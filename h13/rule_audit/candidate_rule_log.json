@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "name": "absence_of_acute_decompensation",
+      "verdict": "REJECTED",
+      "n_examined": 25,
+      "n_matched_signal": 0,
+      "reason": "Zero of 25 rows even mention 'декомпенсация' in the protocol text -- there is no textual signal available to test presence/absence at all, and the label split (13/12) shows no correlation with any keyword found. No deterministic rule possible."
+    },
+    {
+      "name": "no_cancer_mentioned_in_diagnosis",
+      "verdict": "REJECTED",
+      "n_examined": 20,
+      "n_matched_signal": 20,
+      "precision": 0.9,
+      "reason": "All 20 rows' Диагноз/ICD code is pure endometriosis (N80.x), never mentioning cancer -- but only 18/20 are actually label=0; manual inspection of the 2 label=1 exceptions (ids 601, 651) found no textual differentiator anywhere in Диагноз or Анамнез. Precision would be 90%, below the required 100% -- this is a statistical association (per CLAUDE.md/your instruction: 'do not add a rule merely because a combination is statistically associated with a class'), not a verifiable deterministic contradiction. REJECTED."
+    },
+    {
+      "name": "postmenopause_contradicted_by_active_cycle_evidence",
+      "verdict": "ACCEPTED",
+      "n_examined": 14,
+      "n_matched_signal": 13,
+      "precision": 1.0,
+      "signal_keywords": [
+        "последняя менструац",
+        "менструации регулярн",
+        "нмц",
+        "выкидыш",
+        " родов",
+        "п.м."
+      ],
+      "reason": "All 14/14 rows under this title are label=0 (Not applicable) in train. 13 of them explicitly document an active/recent menstrual or reproductive cycle (a last-menstruation date, 'regular periods', a recent miscarriage/delivery, or a menstrual-cycle-disorder abbreviation) -- direct textual evidence the patient is NOT postmenopausal, contradicting the title. Every row manually inspected; precision = 100% on the 13 rows it fires on (cannot be otherwise, since the entire title group is 100% label=0). ACCEPTED -- gated strictly to titles containing 'постменопауз' so it cannot fire anywhere else."
+    }
+  ]
+}

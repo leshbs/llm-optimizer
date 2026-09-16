@@ -1,0 +1,19 @@
+{
+  "id": 688,
+  "sample_index": 4,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.9,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The title specifically refers to treatment methods for children, indicating it is intended for a particular age group.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The title specifically refers to treatment methods for children, indicating it is intended for a particular age group."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 2.0599228000064613,
+  "prompt_tokens": 499,
+  "completion_tokens": 40,
+  "timestamp": "2026-09-15T11:26:07Z"
+}

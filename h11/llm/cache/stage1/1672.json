@@ -1,0 +1,14 @@
+{
+  "id": 1672,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'Коррекция сопутствующих пороков при КТМС без переключения функции желудочков', which implies a focus on a specific condition (КТМС) and suggests a particular treatment approach, indicating it is intended for a specific patient group.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'Коррекция сопутствующих пороков при КТМС без переключения функции желудочков', which implies a focus on a specific condition (КТМС) and suggests a particular treatment approach, indicating it is intended for a specific patient group."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 328,
+  "sample_index": 2,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.5,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The patient's age and gender do not contradict the title's conditions, and the diagnosis of chronic heart failure aligns with the guideline's focus.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The patient's age and gender do not contradict the title's conditions, and the diagnosis of chronic heart failure aligns with the guideline's focus."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0268646000040462,
+  "prompt_tokens": 3194,
+  "completion_tokens": 47,
+  "timestamp": "2026-09-15T11:26:45Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 525,
+  "sample_index": 4,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.9,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.95, \"reasoning\": \"The title specifies treatment for children, but the patient's age field indicates he is an adult, creating a direct contradiction.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.95,
+    "reasoning": "The title specifies treatment for children, but the patient's age field indicates he is an adult, creating a direct contradiction."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0233232000027783,
+  "prompt_tokens": 3029,
+  "completion_tokens": 43,
+  "timestamp": "2026-09-15T11:27:04Z"
+}

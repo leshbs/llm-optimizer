@@ -1,0 +1,10 @@
+{
+  "filename": "candidate_c1_g_t045.csv",
+  "checksum": "739c87afdc890c99588286198867fe0973811738b50fd5b4cef052c50efab086",
+  "stage1_source": "final/predictions/stage1_predictions.csv (unchanged, production C1)",
+  "stage2_source": "final/predictions/stage2_probabilities.csv re-thresholded at 0.45",
+  "rationale": "Best of the 2 tested thresholds by real leaderboard evidence (133.0).",
+  "leaderboard_overall": 49.04198846619121,
+  "status": "SCORED_REJECTED_WORSE_THAN_CHECKPOINT",
+  "replace_checkpoint_rule": "Only if this candidate's real overall_score > 49.21 (current checkpoint)."
+}

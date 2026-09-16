@@ -1,0 +1,19 @@
+{
+  "id": 582,
+  "sample_index": 2,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.5,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The title specifies a population restriction to children, indicating it is intended for a specific patient group.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The title specifies a population restriction to children, indicating it is intended for a specific patient group."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 0.9882844999956433,
+  "prompt_tokens": 488,
+  "completion_tokens": 39,
+  "timestamp": "2026-09-15T11:25:59Z"
+}

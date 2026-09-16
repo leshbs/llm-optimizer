@@ -1,0 +1,19 @@
+{
+  "id": 2170,
+  "sample_index": 2,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.5,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The title specifies 'Дети' (children), indicating a treatment approach tailored to a specific age group.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The title specifies 'Дети' (children), indicating a treatment approach tailored to a specific age group."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 0.942223499994725,
+  "prompt_tokens": 515,
+  "completion_tokens": 41,
+  "timestamp": "2026-09-15T11:26:10Z"
+}

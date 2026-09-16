@@ -1,0 +1,14 @@
+{
+  "id": 806,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 1.0, \"reasoning\": \"The patient's age is 48 years, which directly contradicts the title's condition of being applicable to adolescents (up to 18 years old).\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 1.0,
+    "reasoning": "The patient's age is 48 years, which directly contradicts the title's condition of being applicable to adolescents (up to 18 years old)."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:16Z"
+}

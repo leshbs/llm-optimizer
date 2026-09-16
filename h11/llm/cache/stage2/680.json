@@ -1,0 +1,14 @@
+{
+  "id": 680,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is 70 years old and has a diagnosis of chronic heart failure (ХСН), which aligns with the guideline's focus on adult patients with chronic heart failure. There is no direct contradiction in the structured facts.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is 70 years old and has a diagnosis of chronic heart failure (ХСН), which aligns with the guideline's focus on adult patients with chronic heart failure. There is no direct contradiction in the structured facts."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:21Z"
+}

@@ -1,0 +1,32 @@
+{
+  "probes": [
+    {
+      "name": "Probe LLM-Stage1 -- LLM Stage1 Isolation",
+      "filename": "probe_llm_stage1.csv",
+      "stage1_source": "cached zero-shot LLM predictions (h11/llm/stage1_llm_predictions.parquet, gpt-4o-mini, prompt_version=stage1_v1, unchanged)",
+      "stage2_source": "trivial (all 'Applicable'/1, ignores G entirely)",
+      "threshold": 0.5,
+      "llm_model": "gpt-4o-mini",
+      "prompt_version": "stage1_v1",
+      "checksum": "2fad22f7ca769ccc36654bea4ead1d2adfbb4eee2620fa55e2e91909d009fc06",
+      "hypothesis": "With Stage2 held at a constant trivial baseline, any leaderboard score above the trivial floor is attributable to the zero-shot LLM's real Stage1 predictive contribution (M1_real_LLM).",
+      "expected_leaderboard_interpretation": "Leaderboard score reflects M1_real_LLM's weighted contribution (0.3 of total) plus Stage2's trivial M2 contribution (0.7 * M2_trivial, expected clipped to 0 since 'always Applicable' clips macro-F2 per CLAUDE.md); isolates the LLM's real Stage1 skill for comparison against C1's Probe B reading (H11 Part 1).",
+      "n_rows": 615
+    },
+    {
+      "name": "Probe LLM-Stage2 -- LLM Stage2 Isolation",
+      "filename": "probe_llm_stage2.csv",
+      "stage1_source": "trivial (all 'General'/0, ignores C1 entirely)",
+      "stage2_source": "cached structured-field LLM predictions (h11/llm/stage2_llm_predictions.parquet, gpt-4o-mini, prompt_version=stage2_v1, unchanged)",
+      "threshold": 0.5,
+      "llm_model": "gpt-4o-mini",
+      "prompt_version": "stage2_v1",
+      "checksum": "055a15c456ff049703e2db0d4ddbe5c9983e1442071c9a2ddf09c6edf0232975",
+      "hypothesis": "With Stage1 held at a constant trivial baseline, any leaderboard score above the trivial floor is attributable to the LLM's real Stage2 predictive contribution (M2_real_LLM).",
+      "expected_leaderboard_interpretation": "Leaderboard score reflects M2_real_LLM's weighted contribution (0.7 of total) plus Stage1's trivial M1 contribution (0.3 * M1_trivial, expected near the M1 floor); isolates the LLM's real Stage2 skill for comparison against G's Probe A reading (H11 Part 1).",
+      "n_rows": 615
+    }
+  ],
+  "llm_prediction_source_reference": "h11/llm/prompt_registry.json",
+  "production_config_reference": "final/config/final_config.json"
+}

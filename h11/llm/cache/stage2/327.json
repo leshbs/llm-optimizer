@@ -1,0 +1,14 @@
+{
+  "id": 327,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is 79 years old, which falls within the adult age category, and the diagnosis of chronic heart failure (I50.0) aligns with the guideline's focus on patients with chronic heart failure.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is 79 years old, which falls within the adult age category, and the diagnosis of chronic heart failure (I50.0) aligns with the guideline's focus on patients with chronic heart failure."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:23Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": 31,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'Первая помощь пациентке с ПЭ' (First aid for a patient with preeclampsia), indicating it is focused on a specific condition affecting a particular patient group, thus classifying it as Special.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'Первая помощь пациентке с ПЭ' (First aid for a patient with preeclampsia), indicating it is focused on a specific condition affecting a particular patient group, thus classifying it as Special."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:35Z"
+}

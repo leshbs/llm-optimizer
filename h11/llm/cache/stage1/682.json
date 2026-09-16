@@ -1,0 +1,14 @@
+{
+  "id": 682,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'Сверхтяжелый язвенный колит', indicating a particular severity of the condition, which restricts the population to patients with this specific form of ulcerative colitis.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'Сверхтяжелый язвенный колит', indicating a particular severity of the condition, which restricts the population to patients with this specific form of ulcerative colitis."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:29Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 188,
+  "sample_index": 2,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.5,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"While the patient's gender is unspecified, there is no direct contradiction with the title's conditions, and the age is within the adult range.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "While the patient's gender is unspecified, there is no direct contradiction with the title's conditions, and the age is within the adult range."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.1209325999952853,
+  "prompt_tokens": 3286,
+  "completion_tokens": 47,
+  "timestamp": "2026-09-15T11:26:40Z"
+}

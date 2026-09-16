@@ -1,0 +1,14 @@
+{
+  "id": 991,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The title specifies 'внегонадных герминогенных опухолей средостения', which indicates a specific type of tumor, suggesting that the treatment principles are intended for a particular subgroup of patients.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The title specifies 'внегонадных герминогенных опухолей средостения', which indicates a specific type of tumor, suggesting that the treatment principles are intended for a particular subgroup of patients."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:08Z"
+}

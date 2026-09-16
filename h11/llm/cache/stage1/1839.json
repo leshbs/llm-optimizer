@@ -1,0 +1,14 @@
+{
+  "id": 1839,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The title discusses treatment methods without specifying any particular age group or condition beyond the general categories of 'adults and children', indicating it applies broadly.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The title discusses treatment methods without specifying any particular age group or condition beyond the general categories of 'adults and children', indicating it applies broadly."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:51Z"
+}

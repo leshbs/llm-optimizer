@@ -1,0 +1,14 @@
+{
+  "id": 1605,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The title specifies that it pertains to 'children' and discusses surgical treatment for urethral stricture, indicating it is intended for a specific patient group.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The title specifies that it pertains to 'children' and discusses surgical treatment for urethral stricture, indicating it is intended for a specific patient group."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:52Z"
+}

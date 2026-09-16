@@ -1,0 +1,48 @@
+{
+  "ranges": {
+    "probe_stage1_only.csv": {
+      "points_range": [
+        0.0,
+        21.0
+      ],
+      "rationale": "C1 + trivial 'Applicable' Stage2 -- M2_trivial=0 per CLAUDE.md's documented clip, so score = 70*0.3*M1 only."
+    },
+    "probe_llm_stage1.csv": {
+      "points_range": [
+        0.0,
+        21.0
+      ],
+      "rationale": "Same trivial Stage2 half as probe_stage1_only.csv."
+    },
+    "probe_trivial.csv": {
+      "points_range": [
+        0.0,
+        21.0
+      ],
+      "rationale": "Trivial+trivial -- same 21-point ceiling."
+    },
+    "probe_stage2_only.csv": {
+      "points_range": [
+        0.0,
+        70.0
+      ],
+      "rationale": "Trivial 'General' Stage1 has no documented exact bound -- only the universal [0,1] M1/M2 clip applies."
+    },
+    "probe_llm_stage2.csv": {
+      "points_range": [
+        0.0,
+        70.0
+      ],
+      "rationale": "Same loose bound as probe_stage2_only.csv, for the same reason."
+    },
+    "checkpoint_submission.csv": {
+      "points_range": [
+        0.0,
+        70.0
+      ],
+      "rationale": "Full production submission -- both stages real, universal [0,70] bound only."
+    }
+  },
+  "impossible_observations": [],
+  "any_impossible": false
+}

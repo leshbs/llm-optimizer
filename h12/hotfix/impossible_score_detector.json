@@ -1,0 +1,32 @@
+{
+  "checked": [
+    {
+      "metric": "M1_classical",
+      "value": null,
+      "status": "NOT_YET_SUBMITTED"
+    },
+    {
+      "metric": "M1_llm",
+      "value": null,
+      "status": "NOT_YET_SUBMITTED"
+    },
+    {
+      "metric": "M1_trivial_reference",
+      "value": null,
+      "status": "NOT_YET_SUBMITTED"
+    },
+    {
+      "metric": "M2_classical",
+      "value": null,
+      "status": "NOT_YET_SUBMITTED"
+    },
+    {
+      "metric": "M2_llm",
+      "value": null,
+      "status": "NOT_YET_SUBMITTED"
+    }
+  ],
+  "impossible_scores_found": false,
+  "findings": [],
+  "flag": "NONE"
+}

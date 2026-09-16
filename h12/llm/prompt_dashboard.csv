@@ -1,0 +1,5 @@
+stage,prompt_version,n_calls,agreement_rate,mean_confidence,mean_prompt_tokens,mean_completion_tokens,mean_latency_seconds,json_validity_rate,mean_retries_used,note
+1,stage1_v1,442,,0.9012443438914027,,,,1.0,,single-shot version (no repeated sampling -> no agreement rate); H11's cache format predates token/latency capture (added in H12's self-consistency pipeline).
+2,stage2_v1,173,,0.9000000000000001,,,,1.0,,single-shot version (no repeated sampling -> no agreement rate); H11's cache format predates token/latency capture (added in H12's self-consistency pipeline).
+1,stage1_fewshot_v1,30,1.0,0.9569999999999997,501.6666666666667,42.266666666666666,1.1956717666660552,1.0,0.0,6 self-consistency demo targets (5 samples each) + 0 ambiguous-case targets.
+2,stage2_fewshot_v1,45,1.0,0.9433333333333331,3232.1666666666665,46.833333333333336,1.1997639333334518,1.0,0.0,6 self-consistency demo targets (5 samples each) + 3 ambiguous-case targets.

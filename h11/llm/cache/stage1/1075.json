@@ -1,0 +1,14 @@
+{
+  "id": 1075,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Иное лечение' does not specify any particular patient group or condition, indicating that it applies broadly to both adults and children with psoriatic arthritis.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Иное лечение' does not specify any particular patient group or condition, indicating that it applies broadly to both adults and children with psoriatic arthritis."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:38Z"
+}

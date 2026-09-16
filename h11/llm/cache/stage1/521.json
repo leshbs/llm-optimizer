@@ -1,0 +1,14 @@
+{
+  "id": 521,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Иное лечение' does not specify any particular treatment for a specific patient group, and the age category includes both adults and children, indicating a broader application.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Иное лечение' does not specify any particular treatment for a specific patient group, and the age category includes both adults and children, indicating a broader application."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:44Z"
+}

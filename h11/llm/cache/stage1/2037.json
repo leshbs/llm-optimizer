@@ -1,0 +1,14 @@
+{
+  "id": 2037,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'поражения тройничного нерва' which indicates a focus on a specific condition affecting a particular nerve, suggesting it is intended for a specific patient group rather than a general population.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'поражения тройничного нерва' which indicates a focus on a specific condition affecting a particular nerve, suggesting it is intended for a specific patient group rather than a general population."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:07Z"
+}

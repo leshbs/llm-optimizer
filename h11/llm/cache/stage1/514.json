@@ -1,0 +1,14 @@
+{
+  "id": 514,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Общие принципы антибактериальной терапии' indicates general principles of antibacterial therapy without specifying any particular patient group or condition, thus it applies broadly to all patients.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Общие принципы антибактериальной терапии' indicates general principles of antibacterial therapy without specifying any particular patient group or condition, thus it applies broadly to all patients."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:53Z"
+}

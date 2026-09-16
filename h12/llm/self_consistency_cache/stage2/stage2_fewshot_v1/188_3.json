@@ -1,0 +1,19 @@
+{
+  "id": 188,
+  "sample_index": 3,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.7,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"There is insufficient information to determine whether the patient does not belong to the group described, as required fields are unspecified.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "There is insufficient information to determine whether the patient does not belong to the group described, as required fields are unspecified."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.1274869000044418,
+  "prompt_tokens": 3286,
+  "completion_tokens": 43,
+  "timestamp": "2026-09-15T11:26:41Z"
+}

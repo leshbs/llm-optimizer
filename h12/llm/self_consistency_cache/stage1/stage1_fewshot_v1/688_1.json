@@ -1,0 +1,19 @@
+{
+  "id": 688,
+  "sample_index": 1,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.3,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"Specifically refers to treatment for children, which is a restricted population group.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "Specifically refers to treatment for children, which is a restricted population group."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 0.911570300013409,
+  "prompt_tokens": 499,
+  "completion_tokens": 35,
+  "timestamp": "2026-09-15T11:26:03Z"
+}

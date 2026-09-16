@@ -1,0 +1,6 @@
+{
+  "recommendation": "CHECK_PLATFORM_HISTORY",
+  "required_next_action": "Submit the 5 prepared probes (H11 Part 1 / H12 Part 1) and the canary (H12 Part 6, 121.0) to the leaderboard, record every real score in h12/platform/submission_history.csv (119.0), then re-run H12 Parts 6-7 -- this is the only action that can move platform_state out of UNKNOWN_PLATFORM_BEHAVIOR.",
+  "guard_state": "WAIT_FOR_PLATFORM",
+  "activated_branch": null
+}

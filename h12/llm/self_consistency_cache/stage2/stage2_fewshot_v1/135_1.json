@@ -1,0 +1,19 @@
+{
+  "id": 135,
+  "sample_index": 1,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.3,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"No structured field contradicts the title's condition, and the missing fields do not indicate a violation -- defaults to applicable.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "No structured field contradicts the title's condition, and the missing fields do not indicate a violation -- defaults to applicable."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0407153000123799,
+  "prompt_tokens": 3220,
+  "completion_tokens": 44,
+  "timestamp": "2026-09-15T11:26:55Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": 1391,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title discusses prevention and therapy for infections without specifying a particular condition or subgroup beyond the general age category of adults and children, indicating it applies broadly.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title discusses prevention and therapy for infections without specifying a particular condition or subgroup beyond the general age category of adults and children, indicating it applies broadly."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:17Z"
+}

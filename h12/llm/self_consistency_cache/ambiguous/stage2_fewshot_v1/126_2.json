@@ -1,0 +1,19 @@
+{
+  "id": 126,
+  "sample_index": 2,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.5,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.85, \"reasoning\": \"The patient's gender is not specified, so there is insufficient information to determine a contradiction with the title's condition regarding treatment for pregnant women.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.85,
+    "reasoning": "The patient's gender is not specified, so there is insufficient information to determine a contradiction with the title's condition regarding treatment for pregnant women."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0609021999989636,
+  "prompt_tokens": 3218,
+  "completion_tokens": 47,
+  "timestamp": "2026-09-15T11:27:07Z"
+}

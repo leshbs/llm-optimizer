@@ -1,0 +1,11 @@
+{
+  "allowed_branches": [
+    "Classical wins",
+    "LLM Stage1 wins",
+    "LLM Stage2 wins",
+    "Hybrid wins"
+  ],
+  "activated_branch": null,
+  "activation_reason": "No branch activated -- guard_state is 'WAIT_FOR_PLATFORM', not CONTINUE. LLM routing in particular is never activated while this guard is open, per the hard constraint (this holds regardless of WHICH sub-gate blocked it).",
+  "guard_state_at_activation": "WAIT_FOR_PLATFORM"
+}

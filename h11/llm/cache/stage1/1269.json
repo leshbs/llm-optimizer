@@ -1,0 +1,14 @@
+{
+  "id": 1269,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies an age group ('Взрослые' or 'Adults'), indicating that the treatment principles discussed are intended for a specific patient population.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies an age group ('Взрослые' or 'Adults'), indicating that the treatment principles discussed are intended for a specific patient population."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:55Z"
+}

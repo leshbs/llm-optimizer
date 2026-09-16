@@ -1,0 +1,189 @@
+{
+  "stage2": {
+    "n": 690,
+    "threshold": 0.5,
+    "n_FN": 81,
+    "n_FP": 42,
+    "error_rate": 0.1782608695652174,
+    "mean_protocol_len_FN": 10850.037037037036,
+    "mean_protocol_len_correct": 11631.797178130511,
+    "taxonomy": [
+      {
+        "category": "demographic_restriction",
+        "kind": "FN",
+        "n_errors_with_flag": 6,
+        "n_errors": 81,
+        "flag_rate_in_errors": 0.0741,
+        "flag_rate_in_correct": 0.0899,
+        "lift": 0.8235
+      },
+      {
+        "category": "demographic_restriction",
+        "kind": "FP",
+        "n_errors_with_flag": 5,
+        "n_errors": 42,
+        "flag_rate_in_errors": 0.119,
+        "flag_rate_in_correct": 0.0899,
+        "lift": 1.3235
+      },
+      {
+        "category": "severity_restriction",
+        "kind": "FN",
+        "n_errors_with_flag": 0,
+        "n_errors": 81,
+        "flag_rate_in_errors": 0.0,
+        "flag_rate_in_correct": 0.1023,
+        "lift": 0.0
+      },
+      {
+        "category": "severity_restriction",
+        "kind": "FP",
+        "n_errors_with_flag": 3,
+        "n_errors": 42,
+        "flag_rate_in_errors": 0.0714,
+        "flag_rate_in_correct": 0.1023,
+        "lift": 0.6983
+      },
+      {
+        "category": "negation_in_protocol",
+        "kind": "FN",
+        "n_errors_with_flag": 76,
+        "n_errors": 81,
+        "flag_rate_in_errors": 0.9383,
+        "flag_rate_in_correct": 0.9753,
+        "lift": 0.962
+      },
+      {
+        "category": "negation_in_protocol",
+        "kind": "FP",
+        "n_errors_with_flag": 39,
+        "n_errors": 42,
+        "flag_rate_in_errors": 0.9286,
+        "flag_rate_in_correct": 0.9753,
+        "lift": 0.9521
+      },
+      {
+        "category": "missing_structured_fields",
+        "kind": "FN",
+        "n_errors_with_flag": 19,
+        "n_errors": 81,
+        "flag_rate_in_errors": 0.2346,
+        "flag_rate_in_correct": 0.2787,
+        "lift": 0.8418
+      },
+      {
+        "category": "missing_structured_fields",
+        "kind": "FP",
+        "n_errors_with_flag": 16,
+        "n_errors": 42,
+        "flag_rate_in_errors": 0.381,
+        "flag_rate_in_correct": 0.2787,
+        "lift": 1.3671
+      },
+      {
+        "category": "missing_icd_field",
+        "kind": "FN",
+        "n_errors_with_flag": 19,
+        "n_errors": 81,
+        "flag_rate_in_errors": 0.2346,
+        "flag_rate_in_correct": 0.2557,
+        "lift": 0.9172
+      },
+      {
+        "category": "missing_icd_field",
+        "kind": "FP",
+        "n_errors_with_flag": 14,
+        "n_errors": 42,
+        "flag_rate_in_errors": 0.3333,
+        "flag_rate_in_correct": 0.2557,
+        "lift": 1.3034
+      },
+      {
+        "category": "annotation_ambiguous",
+        "kind": "FN",
+        "n_errors_with_flag": 3,
+        "n_errors": 81,
+        "flag_rate_in_errors": 0.037,
+        "flag_rate_in_correct": 0.0,
+        "lift": NaN
+      },
+      {
+        "category": "annotation_ambiguous",
+        "kind": "FP",
+        "n_errors_with_flag": 0,
+        "n_errors": 42,
+        "flag_rate_in_errors": 0.0,
+        "flag_rate_in_correct": 0.0,
+        "lift": NaN
+      },
+      {
+        "category": "rare_guideline",
+        "kind": "FN",
+        "n_errors_with_flag": 1,
+        "n_errors": 81,
+        "flag_rate_in_errors": 0.0123,
+        "flag_rate_in_correct": 0.0018,
+        "lift": 7.0
+      },
+      {
+        "category": "rare_guideline",
+        "kind": "FP",
+        "n_errors_with_flag": 0,
+        "n_errors": 42,
+        "flag_rate_in_errors": 0.0,
+        "flag_rate_in_correct": 0.0018,
+        "lift": 0.0
+      }
+    ]
+  },
+  "stage1_h14_oof": {
+    "threshold": 0.76,
+    "n_FN": 149,
+    "n_FP": 76,
+    "error_rate": 0.1273344651952462,
+    "taxonomy": [
+      {
+        "category": "decoder_failure",
+        "kind": "FN",
+        "n_errors": 149,
+        "flag_rate_in_errors": 0.9128,
+        "flag_rate_in_correct": 0.4118
+      },
+      {
+        "category": "decoder_failure",
+        "kind": "FP",
+        "n_errors": 76,
+        "flag_rate_in_errors": 0.9605,
+        "flag_rate_in_correct": 0.4118
+      },
+      {
+        "category": "guideline_undecodable",
+        "kind": "FN",
+        "n_errors": 149,
+        "flag_rate_in_errors": 0.2483,
+        "flag_rate_in_correct": 0.3774
+      },
+      {
+        "category": "guideline_undecodable",
+        "kind": "FP",
+        "n_errors": 76,
+        "flag_rate_in_errors": 0.1711,
+        "flag_rate_in_correct": 0.3774
+      },
+      {
+        "category": "ambiguous_decode",
+        "kind": "FN",
+        "n_errors": 149,
+        "flag_rate_in_errors": 0.0134,
+        "flag_rate_in_correct": 0.3774
+      },
+      {
+        "category": "ambiguous_decode",
+        "kind": "FP",
+        "n_errors": 76,
+        "flag_rate_in_errors": 0.0,
+        "flag_rate_in_correct": 0.3774
+      }
+    ]
+  }
+}

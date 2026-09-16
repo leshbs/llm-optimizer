@@ -1,0 +1,6 @@
+probe_name,filename,source_reference,leaderboard_score,status,derived_metric,derived_value
+Probe B (C1 + trivial Stage2),probe_stage1_only.csv,h11/probes/probe_manifest.json,,PENDING,M1_classical,
+Probe A (trivial Stage1 + G),probe_stage2_only.csv,h11/probes/probe_manifest.json,,PENDING,M2_classical,
+LLM Stage1 (LLM + trivial Stage2),probe_llm_stage1.csv,h12/probes/llm_probe_manifest.json,,PENDING,M1_llm,
+LLM Stage2 (trivial Stage1 + LLM),probe_llm_stage2.csv,h12/probes/llm_probe_manifest.json,,PENDING,M2_llm,
+"Probe C (trivial + trivial, M1_trivial reference)",probe_trivial.csv,h11/probes/probe_manifest.json,,PENDING,M1_trivial_reference,

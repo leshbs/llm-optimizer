@@ -1,0 +1,14 @@
+{
+  "id": 626,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 1.0, \"reasoning\": \"The patient is 29 years old, which directly contradicts the age condition of being a teenager (under 18 years) specified in the title.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 1.0,
+    "reasoning": "The patient is 29 years old, which directly contradicts the age condition of being a teenager (under 18 years) specified in the title."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:29Z"
+}

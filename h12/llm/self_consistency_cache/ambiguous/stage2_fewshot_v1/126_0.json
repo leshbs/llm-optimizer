@@ -1,0 +1,19 @@
+{
+  "id": 126,
+  "sample_index": 0,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.85, \"reasoning\": \"The patient's age is not a contradiction, and while gender is unspecified, it does not directly contradict the title's condition for treatment in pregnant women or breastfeeding.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.85,
+    "reasoning": "The patient's age is not a contradiction, and while gender is unspecified, it does not directly contradict the title's condition for treatment in pregnant women or breastfeeding."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.024711899997783,
+  "prompt_tokens": 3218,
+  "completion_tokens": 51,
+  "timestamp": "2026-09-15T11:27:05Z"
+}

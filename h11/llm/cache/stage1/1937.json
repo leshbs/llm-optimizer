@@ -1,0 +1,14 @@
+{
+  "id": 1937,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'Хирургическое лечение' (Surgical treatment) under the context of 'Грипп у взрослых' (Influenza in adults), indicating a focus on a specific patient group (adults) and a particular treatment method.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'Хирургическое лечение' (Surgical treatment) under the context of 'Грипп у взрослых' (Influenza in adults), indicating a focus on a specific patient group (adults) and a particular treatment method."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:40Z"
+}

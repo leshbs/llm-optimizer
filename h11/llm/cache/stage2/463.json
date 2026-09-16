@@ -1,0 +1,14 @@
+{
+  "id": 463,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is an adult (age 53) with a diagnosis of Crohn's disease (K50.1), which aligns with the guideline's focus on conservative treatment for mild to moderate cases of Crohn's disease.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is an adult (age 53) with a diagnosis of Crohn's disease (K50.1), which aligns with the guideline's focus on conservative treatment for mild to moderate cases of Crohn's disease."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:21Z"
+}

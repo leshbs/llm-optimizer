@@ -1,0 +1,14 @@
+{
+  "id": 566,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient's age (61 years) and diagnosis of chronic heart failure (I50.0) do not contradict the guideline's applicability for adults, and there is no specific information indicating a functional class or left ventricular ejection fraction that would disqualify him.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient's age (61 years) and diagnosis of chronic heart failure (I50.0) do not contradict the guideline's applicability for adults, and there is no specific information indicating a functional class or left ventricular ejection fraction that would disqualify him."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:27Z"
+}

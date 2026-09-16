@@ -1,0 +1,14 @@
+{
+  "id": 1859,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'мекониевого илеуса' which indicates a specific condition that may affect a particular patient group, suggesting it is intended for a special population.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'мекониевого илеуса' which indicates a specific condition that may affect a particular patient group, suggesting it is intended for a special population."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:01Z"
+}

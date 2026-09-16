@@ -1,0 +1,19 @@
+{
+  "id": 328,
+  "sample_index": 4,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.9,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The structured fields do not contradict the title's condition, and there is no specification of fibrillation, but absence of information is not a contradiction.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The structured fields do not contradict the title's condition, and there is no specification of fibrillation, but absence of information is not a contradiction."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.1662894999899436,
+  "prompt_tokens": 3194,
+  "completion_tokens": 49,
+  "timestamp": "2026-09-15T11:26:47Z"
+}

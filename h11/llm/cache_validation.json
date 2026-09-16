@@ -1,0 +1,24 @@
+{
+  "stage1": {
+    "stage": "stage1",
+    "n_expected": 442,
+    "n_cached": 442,
+    "missing_ids": [],
+    "unexpected_ids": [],
+    "duplicate_ids": [],
+    "malformed_ids": [],
+    "all_valid": true
+  },
+  "stage2": {
+    "stage": "stage2",
+    "n_expected": 173,
+    "n_cached": 173,
+    "missing_ids": [],
+    "unexpected_ids": [],
+    "duplicate_ids": [],
+    "malformed_ids": [],
+    "all_valid": true
+  },
+  "retry_queue_size": 0,
+  "all_caches_valid": true
+}

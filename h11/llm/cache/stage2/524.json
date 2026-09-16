@@ -1,0 +1,14 @@
+{
+  "id": 524,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is an adult female (age 51) with a diagnosis of Crohn's disease (K50.1), which aligns with the guideline's focus on surgical treatment for adults with Crohn's disease affecting the upper gastrointestinal tract.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is an adult female (age 51) with a diagnosis of Crohn's disease (K50.1), which aligns with the guideline's focus on surgical treatment for adults with Crohn's disease affecting the upper gastrointestinal tract."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:22Z"
+}

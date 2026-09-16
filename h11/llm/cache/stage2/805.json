@@ -1,0 +1,14 @@
+{
+  "id": 805,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient's gender is female and the age is 48, which fits within the adult category described in the title. There are no contradictions with the conditions stated.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient's gender is female and the age is 48, which fits within the adult category described in the title. There are no contradictions with the conditions stated."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:27Z"
+}

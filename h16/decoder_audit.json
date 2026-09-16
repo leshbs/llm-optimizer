@@ -1,0 +1,126 @@
+{
+  "confidence_distribution": {
+    "train": {
+      "4+": 481,
+      "1 (exact)": 339,
+      "0 (unmatched)": 844,
+      "2-3": 103
+    },
+    "test_loo": {
+      "4+": 123,
+      "0 (unmatched)": 203,
+      "2-3": 29,
+      "1 (exact)": 87
+    }
+  },
+  "matched_subsection_rate": {
+    "train": 0.522354272778721,
+    "test_loo": 0.5407239819004525
+  },
+  "label_rate_by_confidence": [
+    {
+      "bucket": "0 (unmatched)",
+      "n": 844,
+      "special_rate": 0.40639810426540285
+    },
+    {
+      "bucket": "1 (exact)",
+      "n": 339,
+      "special_rate": 0.11209439528023599
+    },
+    {
+      "bucket": "2-3",
+      "n": 103,
+      "special_rate": 0.009708737864077669
+    },
+    {
+      "bucket": "4+",
+      "n": 481,
+      "special_rate": 0.002079002079002079
+    }
+  ],
+  "duplicate_rate": {
+    "train_full_title_dupes": 0.0373514431239389,
+    "test_full_title_dupes": 0.002262443438914019,
+    "train_subsection_distinct": 846,
+    "train_rows_whose_subsection_repeats": 1029
+  },
+  "unmatched_subsections": {
+    "n_rows": 844,
+    "n_distinct": 758,
+    "rows_in_singleton_patterns": 695,
+    "top_repeat_counts": [
+      5,
+      5,
+      4,
+      4,
+      4
+    ]
+  },
+  "fuzzy_simulation": {
+    "n_unmatched_test_rows_simulated": 203,
+    "overall_mean_jaccard": 0.05449009118959858,
+    "overall_mean_token_recall": 0.07843530306584492,
+    "exact_recovery_rate": 0.0049261083743842365,
+    "by_edit_distance": [
+      {
+        "edit_distance": 1,
+        "n": 31,
+        "mean_jaccard": 0.07849462365591399,
+        "mean_token_recall": 0.10522273425499232,
+        "exact": 0.03225806451612903
+      },
+      {
+        "edit_distance": 2,
+        "n": 43,
+        "mean_jaccard": 0.09534883720930232,
+        "mean_token_recall": 0.12679955703211518,
+        "exact": 0.0
+      },
+      {
+        "edit_distance": 3,
+        "n": 31,
+        "mean_jaccard": 0.04000372387469161,
+        "mean_token_recall": 0.06236559139784946,
+        "exact": 0.0
+      },
+      {
+        "edit_distance": 4,
+        "n": 10,
+        "mean_jaccard": 0.08805555555555555,
+        "mean_token_recall": 0.13166666666666665,
+        "exact": 0.0
+      },
+      {
+        "edit_distance": 5,
+        "n": 17,
+        "mean_jaccard": 0.06029411764705882,
+        "mean_token_recall": 0.1026610644257703,
+        "exact": 0.0
+      },
+      {
+        "edit_distance": 6,
+        "n": 16,
+        "mean_jaccard": 0.07122668997668997,
+        "mean_token_recall": 0.11801046176046176,
+        "exact": 0.0
+      },
+      {
+        "edit_distance": 7,
+        "n": 55,
+        "mean_jaccard": 0.004415584415584415,
+        "mean_token_recall": 0.0059031877213695395,
+        "exact": 0.0
+      }
+    ]
+  },
+  "unmatched_train_nearest_corpus_distance": {
+    "1": 162,
+    "2": 135,
+    "3": 121,
+    "4": 86,
+    "5": 87,
+    "6": 57,
+    "7": 196
+  }
+}

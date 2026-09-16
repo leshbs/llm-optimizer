@@ -1,0 +1,10 @@
+{
+  "probe_a_score": null,
+  "probe_b_score": null,
+  "probe_c_score": null,
+  "final_submission_score": 49.2,
+  "stage1_real_contribution": null,
+  "stage2_real_contribution": null,
+  "status": "PENDING_PROBE_SUBMISSION",
+  "note": "Stage1/Stage2 real contribution requires Probe A and Probe B leaderboard scores, which have not been submitted yet. Only the final submission's overall score (49.2/70) is currently available. Formulas activate automatically once probe_a_score and probe_b_score are filled in above (re-run this cell after editing)."
+}

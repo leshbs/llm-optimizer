@@ -1,0 +1,14 @@
+{
+  "id": 371,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is female and 43 years old, which fits within the adult category for the guideline, and there is no indication that she is postmenopausal.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is female and 43 years old, which fits within the adult category for the guideline, and there is no indication that she is postmenopausal."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:19Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 506,
+  "sample_index": 0,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The patient's diagnosis of K50.1 (Crohn's disease) aligns with the title's condition regarding Crohn's disease of the small intestine, and there are no contradictions in the structured fields.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The patient's diagnosis of K50.1 (Crohn's disease) aligns with the title's condition regarding Crohn's disease of the small intestine, and there are no contradictions in the structured fields."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.2514911000034772,
+  "prompt_tokens": 3207,
+  "completion_tokens": 60,
+  "timestamp": "2026-09-15T11:26:49Z"
+}

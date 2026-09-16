@@ -1,0 +1,2 @@
+submission_filename,upload_timestamp,submission_id,leaderboard_score_this_submission,best_score_at_time_of_recording,status,notes
+unknown (pre-dates this audit; see H11 Part 3),,,49.2,49.2,SCORED,"Only the overall combined-submission score reported to us (H11 Part 3) -- not one of the 5 isolation probes. Exact filename/timestamp/submission id were never recorded, so those fields are honestly None rather than guessed."

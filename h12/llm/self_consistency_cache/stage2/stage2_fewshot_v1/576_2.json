@@ -1,0 +1,19 @@
+{
+  "id": 576,
+  "sample_index": 2,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.5,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.95, \"reasoning\": \"The patient's age of 44 years does not meet the typical criteria for postmenopausal conditions, indicating a direct contradiction with the title's focus.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.95,
+    "reasoning": "The patient's age of 44 years does not meet the typical criteria for postmenopausal conditions, indicating a direct contradiction with the title's focus."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0326383000065107,
+  "prompt_tokens": 3251,
+  "completion_tokens": 50,
+  "timestamp": "2026-09-15T11:26:25Z"
+}

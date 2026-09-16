@@ -1,0 +1,14 @@
+{
+  "id": 238,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"There is insufficient information to determine that the patient does not belong to the adult age group, as all relevant fields are unspecified.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "There is insufficient information to determine that the patient does not belong to the adult age group, as all relevant fields are unspecified."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:27Z"
+}

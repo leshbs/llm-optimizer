@@ -1,0 +1,52 @@
+{
+  "seed": 42,
+  "C": 10.0,
+  "threshold": 0.69,
+  "nested_cv": {
+    "thresholds": [
+      0.73,
+      0.64,
+      0.69,
+      0.65,
+      0.79
+    ],
+    "threshold_median": 0.69,
+    "fold_scores": [
+      0.8361994470086554,
+      0.8714307769225654,
+      0.7857796908162242,
+      0.8362485717946103,
+      0.8959697986545612
+    ],
+    "mean_fold_m1": 0.8451256570393234,
+    "std_fold_m1": 0.03730284075930094,
+    "pooled_m1": 0.8434134917185765,
+    "pooled_posrate": 0.1941143180531975
+  },
+  "stage2_title_rule": {
+    "n_matched": 32,
+    "n_special": 32,
+    "n_general": 0,
+    "precision": 1.0,
+    "enabled": true,
+    "n_flipped": 0
+  },
+  "test_positive_rate": 0.21945701357466063,
+  "train_positive_rate": 0.21675155631013016,
+  "deltas": {
+    "h15": {
+      "agreement": 0.9140271493212669,
+      "n_differ": 38
+    },
+    "h14": {
+      "agreement": 0.8936651583710408,
+      "n_differ": 47
+    },
+    "production": {
+      "agreement": 0.8212669683257918,
+      "n_differ": 79
+    }
+  },
+  "stage2_source": "final\\predictions\\stage2_predictions.csv",
+  "submission_sha256": "5cd35e4dcba7f5a8bcef21e21b9689440a413e2712c6a65258136a957e8945a6"
+}

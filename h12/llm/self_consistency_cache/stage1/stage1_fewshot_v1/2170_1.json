@@ -1,0 +1,19 @@
+{
+  "id": 2170,
+  "sample_index": 1,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.3,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.98, \"reasoning\": \"The title specifies the patient group as children with Crohn's disease, indicating a special population.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.98,
+    "reasoning": "The title specifies the patient group as children with Crohn's disease, indicating a special population."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.1255423999973573,
+  "prompt_tokens": 515,
+  "completion_tokens": 39,
+  "timestamp": "2026-09-15T11:26:09Z"
+}

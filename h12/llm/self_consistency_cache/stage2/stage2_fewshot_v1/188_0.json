@@ -1,0 +1,19 @@
+{
+  "id": 188,
+  "sample_index": 0,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient's age is specified, but gender is not, which does not contradict the title's conditions -- defaults to applicable due to missing information.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient's age is specified, but gender is not, which does not contradict the title's conditions -- defaults to applicable due to missing information."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.1743999000027543,
+  "prompt_tokens": 3286,
+  "completion_tokens": 48,
+  "timestamp": "2026-09-15T11:26:38Z"
+}

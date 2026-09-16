@@ -1,0 +1,19 @@
+{
+  "id": 127,
+  "sample_index": 4,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.9,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.85, \"reasoning\": \"Although the patient's gender is unspecified, the title's age condition is not contradicted, and there is no clear indication that the patient does not fall into the applicable group for treatment during pregnancy or breastfeeding.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.85,
+    "reasoning": "Although the patient's gender is unspecified, the title's age condition is not contradicted, and there is no clear indication that the patient does not fall into the applicable group for treatment during pregnancy or breastfeeding."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.1291010999993887,
+  "prompt_tokens": 3216,
+  "completion_tokens": 60,
+  "timestamp": "2026-09-15T11:27:15Z"
+}

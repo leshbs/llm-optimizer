@@ -1,0 +1,12 @@
+{
+  "candidate_name": "Classical",
+  "stage1_path": "C:\\Users\\Lesharo Bladen S\\Downloads\\AIIJC\\final\\predictions\\stage1_predictions.csv",
+  "stage1_type": "csv_prod",
+  "stage2_path": "C:\\Users\\Lesharo Bladen S\\Downloads\\AIIJC\\final\\predictions\\stage2_predictions.csv",
+  "stage2_type": "csv_prod",
+  "stage1_source": "final/predictions/stage1_predictions.csv (unchanged, production C1)",
+  "stage2_source": "final/predictions/stage2_predictions.csv (unchanged, production G)",
+  "selection_reason": "Decision tree status is 'PENDING_INSUFFICIENT_DATA' -- no leaderboard evidence yet justifies switching away from the classical production pipeline, so Classical is kept.",
+  "decision_tree_branch_at_selection": "PENDING_INSUFFICIENT_DATA",
+  "stage1_recovery_gate_status_at_selection": "PENDING_NO_PROBE_SCORE"
+}

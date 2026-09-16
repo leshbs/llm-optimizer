@@ -1,0 +1,14 @@
+{
+  "id": 518,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The title discusses medication methods for pre-induction and induction of labor without specifying any particular age group or condition beyond the general category of 'adults and children', indicating a broad application.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The title discusses medication methods for pre-induction and induction of labor without specifying any particular age group or condition beyond the general category of 'adults and children', indicating a broad application."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:54Z"
+}

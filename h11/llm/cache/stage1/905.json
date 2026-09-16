@@ -1,0 +1,14 @@
+{
+  "id": 905,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Симптоматическое лечение' does not specify any particular age group or condition beyond the general category of lipid accumulation disorders, indicating it applies broadly to all patients.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Симптоматическое лечение' does not specify any particular age group or condition beyond the general category of lipid accumulation disorders, indicating it applies broadly to all patients."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:16Z"
+}

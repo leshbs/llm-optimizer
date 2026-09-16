@@ -1,0 +1,14 @@
+{
+  "id": 46,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'Лечение госпитализированных пациентов' which indicates a focus on hospitalized patients, suggesting a specific patient group rather than a general treatment approach.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'Лечение госпитализированных пациентов' which indicates a focus on hospitalized patients, suggesting a specific patient group rather than a general treatment approach."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:40Z"
+}

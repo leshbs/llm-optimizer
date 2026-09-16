@@ -1,0 +1,19 @@
+{
+  "id": 983,
+  "sample_index": 4,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.9,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The title specifically focuses on treatment for pregnant patients, which is a defined subgroup within the broader adult population.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The title specifically focuses on treatment for pregnant patients, which is a defined subgroup within the broader adult population."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0304003999917768,
+  "prompt_tokens": 495,
+  "completion_tokens": 41,
+  "timestamp": "2026-09-15T11:25:56Z"
+}

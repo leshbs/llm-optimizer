@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "name": "LLM Stage1 + G Stage2",
+      "filename": "hybrid_llm_s1_g_s2.csv",
+      "checksum": "ea5fc7a5e1d6cd2160be8fa8083bd342cd6b32d7518f68aebe7620cae516bf1e",
+      "stage1_source": "h11/llm/stage1_llm_predictions.parquet (unchanged)",
+      "stage2_source": "final/predictions/stage2_predictions.csv (unchanged, production G)",
+      "triggered_by": "Branch B (LLM wins Stage1 only)",
+      "n_rows": 615
+    },
+    {
+      "name": "C1 Stage1 + LLM Stage2",
+      "filename": "hybrid_c1_s1_llm_s2.csv",
+      "checksum": "3b94fe0c1041c11ae85826f7ce29e2da5ec9292e57a0f7a5c2d35a93202c5364",
+      "stage1_source": "final/predictions/stage1_predictions.csv (unchanged, production C1)",
+      "stage2_source": "h11/llm/stage2_llm_predictions.parquet (unchanged, raw LLM)",
+      "triggered_by": "Branch C (LLM wins Stage2 only)",
+      "n_rows": 615
+    },
+    {
+      "name": "C1 Stage1 + LLM Stage2 with rule-engine override",
+      "filename": "hybrid_c1_s1_llmrule_s2.csv",
+      "checksum": "3b94fe0c1041c11ae85826f7ce29e2da5ec9292e57a0f7a5c2d35a93202c5364",
+      "stage1_source": "final/predictions/stage1_predictions.csv (unchanged, production C1)",
+      "stage2_source": "h11/llm/stage2_llm_predictions.parquet + rule_based_prediction() override (fired on 6/173 test rows; changed the LLM's own prediction on 0 of those)",
+      "triggered_by": "Stage2 scores close between Classical and LLM (ambiguous winner)",
+      "n_rows": 615
+    }
+  ],
+  "note": "All three candidates are built from already-cached predictions only (no retraining, no new LLM calls); which one (if any) is actually recommended depends on 106.0's decision_tree, which is currently 'PENDING_INSUFFICIENT_DATA'."
+}

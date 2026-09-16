@@ -1,0 +1,14 @@
+{
+  "id": 738,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is 70 years old and has a diagnosis of chronic heart failure (I50.9), which aligns with the guideline's focus on chronic heart failure treatment. There are no contradictions in age or gender.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is 70 years old and has a diagnosis of chronic heart failure (I50.9), which aligns with the guideline's focus on chronic heart failure treatment. There are no contradictions in age or gender."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:25Z"
+}

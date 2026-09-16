@@ -1,0 +1,14 @@
+{
+  "id": 1874,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title refers to general dietary therapy recommendations for patients with FAOD, without specifying any particular age group or condition severity, thus applying broadly to all patients.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title refers to general dietary therapy recommendations for patients with FAOD, without specifying any particular age group or condition severity, thus applying broadly to all patients."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:10Z"
+}

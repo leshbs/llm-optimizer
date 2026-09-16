@@ -1,0 +1,52 @@
+{
+  "candidate_thresholds": [
+    0.45,
+    0.48,
+    0.52
+  ],
+  "baseline_threshold": 0.5,
+  "baseline_M2_real": 0.7308,
+  "baseline_M1_real_C1": 0.6382,
+  "baseline_overall": 49.21,
+  "variants": [
+    {
+      "threshold": 0.45,
+      "filename": "probe_g_t045.csv",
+      "checksum": "31e1d27f629d69f415672b038fea976f3f3e26c3f2a7e0e34b1e2fc846b3d640",
+      "stage1_source": "trivial (all 'General'/0, ignores C1 entirely)",
+      "stage2_source": "final/predictions/stage2_probabilities.csv re-thresholded at 0.45",
+      "positive_rate": 0.5838150289017341,
+      "n_changed_vs_G_at_050": 7,
+      "leaderboard_M2_real": null,
+      "leaderboard_FN": null,
+      "leaderboard_overall": 35.63961988304093,
+      "status": "SCORED"
+    },
+    {
+      "threshold": 0.48,
+      "filename": "probe_g_t048.csv",
+      "checksum": "2b01c8883eac32fb6c03f82060af4668969d2ca4f60fe6b95fdabd4a27584f04",
+      "stage1_source": "trivial (all 'General'/0, ignores C1 entirely)",
+      "stage2_source": "final/predictions/stage2_probabilities.csv re-thresholded at 0.48",
+      "positive_rate": 0.5491329479768786,
+      "n_changed_vs_G_at_050": 1,
+      "leaderboard_M2_real": null,
+      "leaderboard_FN": null,
+      "leaderboard_overall": 34.44566146027295,
+      "status": "SCORED"
+    },
+    {
+      "threshold": 0.52,
+      "filename": "probe_g_t052.csv",
+      "checksum": "31bcf8a056bc13c5325b533977f7ca3ba86fabd05e5c2758d7f89c71772ddc52",
+      "stage1_source": "trivial (all 'General'/0, ignores C1 entirely)",
+      "stage2_source": "final/predictions/stage2_probabilities.csv re-thresholded at 0.52",
+      "positive_rate": 0.5433526011560693,
+      "n_changed_vs_G_at_050": 0,
+      "leaderboard_M2_real": null,
+      "leaderboard_FN": null,
+      "leaderboard_overall": null,
+      "status": "PENDING_SUBMISSION"
+    }
+  ]
+}

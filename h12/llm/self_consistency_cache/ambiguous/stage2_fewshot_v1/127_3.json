@@ -1,0 +1,19 @@
+{
+  "id": 127,
+  "sample_index": 3,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.7,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The gender field is not specified, which does not contradict the title's condition; thus, it is applicable based on the age and lack of contradiction.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The gender field is not specified, which does not contradict the title's condition; thus, it is applicable based on the age and lack of contradiction."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.1159954000031576,
+  "prompt_tokens": 3216,
+  "completion_tokens": 50,
+  "timestamp": "2026-09-15T11:27:14Z"
+}

@@ -1,0 +1,13 @@
+{
+  "PROBE_VALID": true,
+  "status": "PASS",
+  "reasons": [],
+  "components": {
+    "hash_audit_passed": true,
+    "structural_validation_passed": true,
+    "stage_difference_matches_expectation": true,
+    "probe_generation_audit_passed": true,
+    "impossible_score_flag": "NONE"
+  },
+  "blocks_downstream_routing": false
+}

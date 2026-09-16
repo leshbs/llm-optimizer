@@ -1,0 +1,14 @@
+{
+  "id": 1122,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Обезболивание родов' refers to pain management during childbirth, which is a general treatment applicable to all patients regardless of specific conditions or demographics.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Обезболивание родов' refers to pain management during childbirth, which is a general treatment applicable to all patients regardless of specific conditions or demographics."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:08Z"
+}

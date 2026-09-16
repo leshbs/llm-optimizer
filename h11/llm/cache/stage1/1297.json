@@ -1,0 +1,14 @@
+{
+  "id": 1297,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Синдром Бругада' indicates a specific condition, which suggests that the treatment principles or methods described are intended for a particular patient group with this syndrome, classifying it as Special.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Синдром Бругада' indicates a specific condition, which suggests that the treatment principles or methods described are intended for a particular patient group with this syndrome, classifying it as Special."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:09Z"
+}

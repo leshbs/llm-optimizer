@@ -1,0 +1,19 @@
+{
+  "id": 127,
+  "sample_index": 2,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.5,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.85, \"reasoning\": \"The patient's gender is unspecified, which does not contradict the title's female condition -- defaults to applicable due to missing information.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.85,
+    "reasoning": "The patient's gender is unspecified, which does not contradict the title's female condition -- defaults to applicable due to missing information."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0268465999979526,
+  "prompt_tokens": 3216,
+  "completion_tokens": 44,
+  "timestamp": "2026-09-15T11:27:13Z"
+}

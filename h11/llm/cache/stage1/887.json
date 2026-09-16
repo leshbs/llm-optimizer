@@ -1,0 +1,14 @@
+{
+  "id": 887,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies treatment for NAFLD in conjunction with dyslipidemia and cardiovascular diseases, indicating it is intended for a specific patient group with these associated conditions.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies treatment for NAFLD in conjunction with dyslipidemia and cardiovascular diseases, indicating it is intended for a specific patient group with these associated conditions."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:43Z"
+}

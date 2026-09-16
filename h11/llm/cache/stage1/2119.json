@@ -1,0 +1,14 @@
+{
+  "id": 2119,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The title specifies a treatment for cirrhosis of the liver in the context of hyponatremia, which indicates a specific condition and potentially a specific patient group, thus classifying it as Special.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The title specifies a treatment for cirrhosis of the liver in the context of hyponatremia, which indicates a specific condition and potentially a specific patient group, thus classifying it as Special."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:01Z"
+}

@@ -1,0 +1,14 @@
+{
+  "id": 128,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient's age is 45 years, which falls within the adult category, and there is no information contradicting the conditions for treatment in pregnant women or breastfeeding, as the patient's gender is unspecified.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient's age is 45 years, which falls within the adult category, and there is no information contradicting the conditions for treatment in pregnant women or breastfeeding, as the patient's gender is unspecified."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:31Z"
+}

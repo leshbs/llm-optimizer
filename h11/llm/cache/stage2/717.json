@@ -1,0 +1,14 @@
+{
+  "id": 717,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient has chronic heart failure (ICD-10 I50.9) and a low ejection fraction of 34%, which aligns with the guideline's focus on patients with chronic heart failure II-IV functional class and reduced left ventricular ejection fraction.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient has chronic heart failure (ICD-10 I50.9) and a low ejection fraction of 34%, which aligns with the guideline's focus on patients with chronic heart failure II-IV functional class and reduced left ventricular ejection fraction."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:25Z"
+}

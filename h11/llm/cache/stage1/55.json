@@ -1,0 +1,14 @@
+{
+  "id": 55,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'patients with metastatic and unresectable Merkel carcinoma,' indicating a focus on a specific patient group with a particular condition, thus classifying it as Special.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'patients with metastatic and unresectable Merkel carcinoma,' indicating a focus on a specific patient group with a particular condition, thus classifying it as Special."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:46Z"
+}

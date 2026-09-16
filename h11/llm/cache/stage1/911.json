@@ -1,0 +1,14 @@
+{
+  "id": 911,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The title refers to a treatment section for both adults and children without specifying any particular subgroup or condition, indicating a general approach.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The title refers to a treatment section for both adults and children without specifying any particular subgroup or condition, indicating a general approach."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:06Z"
+}

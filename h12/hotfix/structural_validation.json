@@ -1,0 +1,77 @@
+{
+  "files": {
+    "checkpoint_submission.csv": {
+      "exists": true,
+      "checks": {
+        "columns_match": true,
+        "row_count_615": true,
+        "stage1_id_order_matches_test": true,
+        "stage2_id_order_matches_test": true,
+        "no_duplicate_ids_within_stage": true,
+        "labels_binary": true
+      },
+      "passed": true
+    },
+    "probe_stage1_only.csv": {
+      "exists": true,
+      "checks": {
+        "columns_match": true,
+        "row_count_615": true,
+        "stage1_id_order_matches_test": true,
+        "stage2_id_order_matches_test": true,
+        "no_duplicate_ids_within_stage": true,
+        "labels_binary": true
+      },
+      "passed": true
+    },
+    "probe_stage2_only.csv": {
+      "exists": true,
+      "checks": {
+        "columns_match": true,
+        "row_count_615": true,
+        "stage1_id_order_matches_test": true,
+        "stage2_id_order_matches_test": true,
+        "no_duplicate_ids_within_stage": true,
+        "labels_binary": true
+      },
+      "passed": true
+    },
+    "probe_trivial.csv": {
+      "exists": true,
+      "checks": {
+        "columns_match": true,
+        "row_count_615": true,
+        "stage1_id_order_matches_test": true,
+        "stage2_id_order_matches_test": true,
+        "no_duplicate_ids_within_stage": true,
+        "labels_binary": true
+      },
+      "passed": true
+    },
+    "probe_llm_stage1.csv": {
+      "exists": true,
+      "checks": {
+        "columns_match": true,
+        "row_count_615": true,
+        "stage1_id_order_matches_test": true,
+        "stage2_id_order_matches_test": true,
+        "no_duplicate_ids_within_stage": true,
+        "labels_binary": true
+      },
+      "passed": true
+    },
+    "probe_llm_stage2.csv": {
+      "exists": true,
+      "checks": {
+        "columns_match": true,
+        "row_count_615": true,
+        "stage1_id_order_matches_test": true,
+        "stage2_id_order_matches_test": true,
+        "no_duplicate_ids_within_stage": true,
+        "labels_binary": true
+      },
+      "passed": true
+    }
+  },
+  "all_passed": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": 190,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.8, \"reasoning\": \"The patient's age of 64 years falls within the adult category, and there is insufficient information regarding the functional class or left ventricular ejection fraction to contradict the guideline's applicability.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.8,
+    "reasoning": "The patient's age of 64 years falls within the adult category, and there is insufficient information regarding the functional class or left ventricular ejection fraction to contradict the guideline's applicability."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:31Z"
+}

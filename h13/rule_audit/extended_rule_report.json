@@ -1,0 +1,10 @@
+{
+  "train_coverage_v1_baseline": 17,
+  "train_precision_v1_baseline": 1.0,
+  "train_coverage_v2_extended": 30,
+  "train_precision_v2_extended": 1.0,
+  "coverage_gain": 13,
+  "test_rows_where_v2_fires": 11,
+  "test_predictions_actually_changed_by_v2": 0,
+  "recommendation": "No leaderboard probe needed for this rule"
+}

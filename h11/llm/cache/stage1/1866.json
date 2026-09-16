@@ -1,0 +1,14 @@
+{
+  "id": 1866,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The subsection title specifies a particular age group (children) and describes treatment for patients with specific conditions (bilateral tumors and unilateral nephroblastoma with genetic predisposition), indicating it is intended for a special patient group.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The subsection title specifies a particular age group (children) and describes treatment for patients with specific conditions (bilateral tumors and unilateral nephroblastoma with genetic predisposition), indicating it is intended for a special patient group."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:00Z"
+}

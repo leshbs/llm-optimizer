@@ -1,0 +1,14 @@
+{
+  "id": 694,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient's age of 50 years falls within the adult category, and there is no information indicating a contradiction with the severe active Crohn's disease condition.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient's age of 50 years falls within the adult category, and there is no information indicating a contradiction with the severe active Crohn's disease condition."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:31Z"
+}

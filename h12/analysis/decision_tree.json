@@ -1,0 +1,12 @@
+{
+  "stage1_winner": "PENDING",
+  "stage2_winner": "PENDING",
+  "selected_branch": "PENDING_INSUFFICIENT_DATA",
+  "decision_explanation": "No branch can be selected yet -- per the hard constraints this decision must be based entirely on observed leaderboard probe scores. Still missing: Stage1 (Probe B / C1 and the LLM-Stage1 probe leaderboard scores); Stage2 (Probe A / G, the LLM-Stage2 probe, AND Probe C for the M1_trivial reference -- see 104.0).",
+  "all_branch_explanations": {
+    "Branch A": "### Branch A -- Classical wins both stages\n\nNeither C1 nor G is beaten by the LLM on the leaderboard. Recommendation: keep the classical production pipeline unchanged; treat the LLM pathway as a research/audit tool only (per H11 Part 3), not a production candidate.",
+    "Branch B": "### Branch B -- LLM wins Stage1 only\n\nThe LLM beats C1 on Stage1 but G still beats the LLM on Stage2. Recommendation: evaluate the 'LLM Stage1 + G Stage2' hybrid candidate (107.0) as the new production submission, keeping G unchanged.",
+    "Branch C": "### Branch C -- LLM wins Stage2 only\n\nThe LLM beats G on Stage2 but C1 still beats the LLM on Stage1. Recommendation: evaluate the 'C1 Stage1 + LLM Stage2' hybrid candidate (107.0), keeping C1 unchanged.",
+    "Branch D": "### Branch D -- LLM wins both stages\n\nThe LLM beats both C1 and G. Recommendation: a full LLM-based production pipeline becomes the primary candidate, but should still be validated for cost/latency at full-scale (615-row) inference before replacing the classical pipeline outright."
+  }
+}

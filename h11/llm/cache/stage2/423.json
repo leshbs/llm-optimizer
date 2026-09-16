@@ -1,0 +1,14 @@
+{
+  "id": 423,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 1.0, \"reasoning\": \"The patient is 41 years old, which directly contradicts the age condition of being under 18 years for the subsection on endometriosis in adolescents.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 1.0,
+    "reasoning": "The patient is 41 years old, which directly contradicts the age condition of being under 18 years for the subsection on endometriosis in adolescents."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:31Z"
+}

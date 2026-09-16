@@ -1,0 +1,14 @@
+{
+  "id": 586,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is 61 years old and has a diagnosis of chronic heart failure (I50.0), which aligns with the adult population described in the guideline.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is 61 years old and has a diagnosis of chronic heart failure (I50.0), which aligns with the adult population described in the guideline."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:17Z"
+}

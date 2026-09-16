@@ -1,0 +1,14 @@
+{
+  "id": 1647,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The title discusses initial actions for managing shoulder dystocia without specifying a particular subgroup or condition beyond the general context of adults and children, indicating a broad applicability.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The title discusses initial actions for managing shoulder dystocia without specifying a particular subgroup or condition beyond the general context of adults and children, indicating a broad applicability."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:08Z"
+}

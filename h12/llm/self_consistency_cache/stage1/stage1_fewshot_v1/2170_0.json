@@ -1,0 +1,19 @@
+{
+  "id": 2170,
+  "sample_index": 0,
+  "prompt_version": "stage1_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The title specifies a treatment approach for children with Crohn's disease, indicating it is intended for a specific patient group.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The title specifies a treatment approach for children with Crohn's disease, indicating it is intended for a specific patient group."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0140450000035344,
+  "prompt_tokens": 515,
+  "completion_tokens": 44,
+  "timestamp": "2026-09-15T11:26:08Z"
+}

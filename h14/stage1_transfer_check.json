@@ -1,0 +1,23 @@
+{
+  "production_char_tfidf": {
+    "vocab": 19087,
+    "train_mass_on_dead_ngrams": 0.0,
+    "test_mass_on_dead_ngrams": 0.0,
+    "mean_active_features_train": 417.1816638370119,
+    "mean_active_features_test": 411.0022624434389
+  },
+  "rebuild_shape_tfidf": {
+    "vocab": 1842,
+    "train_mass_on_dead_ngrams": 0.41127760040387484,
+    "test_mass_on_dead_ngrams": 0.4165756986791113,
+    "mean_active_features_train": 35.63610639501981,
+    "mean_active_features_test": 34.81447963800905,
+    "test_rows_with_zero_features": 0,
+    "test_vocab_coverage": 0.7062975027144408
+  },
+  "skeleton_drift": {
+    "max_standardised_mean_diff": 0.1434684299576431,
+    "median_standardised_mean_diff": 0.014375475877429112,
+    "n_features_above_0.5_sd": 0
+  }
+}

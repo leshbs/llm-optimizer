@@ -1,0 +1,16 @@
+{
+  "stage1": {
+    "prompt_version": "stage1_v1",
+    "system_prompt": "You are assisting with classifying clinical guideline subsection titles.\n\nTASK: Given the hierarchical title path of a clinical guideline subsection (guideline name, section hierarchy, and final subsection title), classify it as General or Special.\n\nDEFINITIONS:\n- General (label 0): the subsection applies broadly to all patients.\n- Special (label 1): the subsection describes treatment principles or methods intended for a specific patient group only -- for example patients with a particular comorbidity or condition, of a specific gender, in a particular age group, or with a particular form/severity/type of disease or condition.\n\nINSTRUCTIONS:\n- Base your decision only on the title text provided. Do not assume information not present in the title.\n- If the title restricts the population by age, gender, comorbidity, severity, form, or a named subgroup, classify it Special.\n- If the title is a general treatment/diagnosis section with no population restriction, classify it General.\n- Respond with a confidence between 0 and 1 reflecting how certain you are.\n- Give a short (1-2 sentence) reasoning.\n\nRespond with JSON ONLY, matching exactly this schema:\n{\"prediction\": 0 or 1, \"confidence\": <float 0-1>, \"reasoning\": \"<short text>\"}\n",
+    "model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "max_tokens": 250
+  },
+  "stage2": {
+    "prompt_version": "stage2_v1",
+    "system_prompt": "You are assisting with a clinical guideline applicability check.\n\nTASK: Given a Special clinical guideline subsection's title and a patient's STRUCTURED facts (extracted fields only, not raw text), decide whether the subsection is Applicable or Not applicable to this patient.\n\nDEFINITIONS:\n- Applicable (label 1): the patient's structured facts do not contradict the conditions described by the title, OR there is insufficient information to determine that the patient does not belong to the group described.\n- Not applicable (label 0): there is a clear, direct contradiction between the title's stated population condition (age/gender/comorbidity/severity) and the patient's structured facts.\n\nCRITICAL RULE: Missing or unknown information is NOT a contradiction. Only classify Not applicable when a structured field DIRECTLY contradicts the title's condition. If a needed field is \"не указано\" (not specified), treat that condition as unresolved, not violated -- default toward Applicable in that case.\n\nINSTRUCTIONS:\n- Consider only the structured fields given below (title's own gender/age condition if any, and the patient's gender, age, diagnosis code, complaints, history, and objective status).\n- Give a short (1-2 sentence) reasoning referencing which field drove your decision, if any.\n- Respond with a confidence between 0 and 1.\n\nRespond with JSON ONLY, matching exactly this schema:\n{\"prediction\": 0 or 1, \"confidence\": <float 0-1>, \"reasoning\": \"<short text>\"}\n",
+    "model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "max_tokens": 300
+  }
+}

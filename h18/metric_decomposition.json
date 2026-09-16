@@ -1,0 +1,40 @@
+{
+  "M2_real_measured": 0.7307714752567694,
+  "M2_offline_cv": 0.7023868247508647,
+  "M2_cv_underestimates_by": 0.028384650505904774,
+  "submissions": {
+    "production C1 + G": {
+      "leaderboard_total": 49.021,
+      "stage2_points": 35.8078022875817,
+      "stage1_points": 13.2131977124183,
+      "M1_real": 0.629199891067538
+    },
+    "H17 clean-text S1 + G": {
+      "leaderboard_total": 55.168,
+      "stage2_points": 35.8078022875817,
+      "stage1_points": 19.360197712418298,
+      "M1_real": 0.9219141767818237
+    }
+  },
+  "offline_reference": {
+    "M1_production_C1_cv": 0.4648142133801812,
+    "M1_h14_nested_cv": 0.7111438928995341,
+    "M1_h15_nested_cv": 0.7527351386627469,
+    "M1_h17_nested_cv": 0.8434134917185765,
+    "M2_offline_cv": 0.7023868247508647
+  },
+  "M1_h17_real": 0.9219141767818237,
+  "M1_h17_cv_underestimates_by": 0.07850068506324726,
+  "which_M2_to_use": {
+    "score_accounting_and_reporting": "M2_real = 0.7308 (measured, not estimated)",
+    "model_selection_between_variants": "M2_offline_cv = 0.7024 -- the only figure available for an unscored candidate, and competition rule 12 forbids selecting on leaderboard feedback",
+    "never": "compare an offline M2 against the real M2. Offline runs ~0.028 low, so that comparison rejects good candidates for free."
+  },
+  "bookkeeping_discrepancy": {
+    "h12_checkpoint_manifest_records_total": 49.21,
+    "user_reported_total": 49.021,
+    "implied_M1_if_49_21": 0.638199891067538,
+    "implied_M1_if_49_021": 0.629199891067538,
+    "note": "h12/checkpoint/checkpoint_manifest.json records 49.21 and derives M1_real(C1)=0.6382 from it; the reported total is 49.021, which gives 0.6292. Only the baseline delta is affected -- H17's real M1 is derived from its own total and the measured M2 anchor, so it stands either way."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": 871,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title 'Антибактериальная терапия' does not specify any particular patient group or condition, indicating that it applies broadly to all patients regardless of age or other factors.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title 'Антибактериальная терапия' does not specify any particular patient group or condition, indicating that it applies broadly to all patients regardless of age or other factors."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:45Z"
+}

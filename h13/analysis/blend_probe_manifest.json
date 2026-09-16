@@ -1,0 +1,10 @@
+{
+  "filename": "probe_g_blend.csv",
+  "checksum": "94cff97bb13c7570b44d8ae3476959dde2d40f8451c641ec3c343165f91b3984",
+  "stage1": "trivial (all-zero)",
+  "stage2": "base-rate blend of G (134.0)",
+  "n_changed_vs_plain_g_at_050": 1,
+  "promotion_rule": "Promote to production only if this probe's real M2 > current production M2=0.7308.",
+  "leaderboard_overall": 35.8078022875817,
+  "status": "SCORED"
+}

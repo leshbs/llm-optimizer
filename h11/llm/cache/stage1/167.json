@@ -1,0 +1,14 @@
+{
+  "id": 167,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The title indicates treatment methods that apply to both adults and children, suggesting a broad applicability without restriction to a specific patient group.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The title indicates treatment methods that apply to both adults and children, suggesting a broad applicability without restriction to a specific patient group."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:32Z"
+}

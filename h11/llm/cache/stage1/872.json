@@ -1,0 +1,14 @@
+{
+  "id": 872,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The subsection title refers to surgical treatment for acute respiratory viral infections in adults, which applies broadly to all adult patients without specifying any particular subgroup or condition.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The subsection title refers to surgical treatment for acute respiratory viral infections in adults, which applies broadly to all adult patients without specifying any particular subgroup or condition."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:46Z"
+}

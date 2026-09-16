@@ -1,0 +1,14 @@
+{
+  "id": 1645,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The subsection title specifies 'children' and 'very high-risk group', indicating it is focused on a specific patient population rather than a general treatment approach.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The subsection title specifies 'children' and 'very high-risk group', indicating it is focused on a specific patient population rather than a general treatment approach."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:59Z"
+}

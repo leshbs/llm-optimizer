@@ -1,0 +1,14 @@
+{
+  "id": 853,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.9, \"reasoning\": \"The patient is 43 years old and has a history of menstruation, indicating she is not in postmenopause, which contradicts the title's focus on endometriosis in postmenopausal women.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.9,
+    "reasoning": "The patient is 43 years old and has a history of menstruation, indicating she is not in postmenopause, which contradicts the title's focus on endometriosis in postmenopausal women."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:22Z"
+}

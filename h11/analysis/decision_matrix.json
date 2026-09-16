@@ -1,0 +1,12 @@
+{
+  "diagnosis_class": "plateau_no_degradation",
+  "diagnosis_label": "Plateau / No degradation (leaderboard >= offline estimate)",
+  "selected_branch": "Branch C",
+  "priority": "LLM pathway becomes primary research direction.",
+  "overall_gap": 5.0219,
+  "caveats": [
+    "Stage-level (Probe A/Probe B) leaderboard scores are not yet available -- this decision is based on the overall final-submission gap only.",
+    "Recommend submitting probe_stage1_only.csv and probe_stage2_only.csv to complete the stage-level attribution once platform submission slots are available."
+  ],
+  "explanation_markdown": "### Decision: Branch C\n\n**Diagnosis:** Plateau / No degradation (leaderboard >= offline estimate) (overall gap = +5.02 points out of 70; leaderboard 49.2 vs. offline estimate 44.18).\n\nSince the actual leaderboard score meets or exceeds the offline estimate, there is **no evidence of overfitting or a train/test distribution shift severe enough to warrant an emergency Stage1 or Stage2 audit**. Per the decision-matrix rules, this routes to **Branch C**: LLM pathway becomes primary research direction.\n\nThis conclusion is provisional on the overall score alone -- Probe A/B submission is still recommended as a low-priority follow-up to rule out an offsetting pair of errors (e.g. Stage1 doing better than offline while Stage2 does worse, netting out near zero)."
+}

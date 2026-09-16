@@ -1,0 +1,10 @@
+{
+  "M1_trivial_derived": -8.02776906135468e-06,
+  "M1_trivial_residual_note": "Derived ~0 to a residual of ~8e-6; theoretically exact since an all-zero Stage1 prediction forces macro-F0.5 <= 0.5, which the M1 clip maps to 0.",
+  "M2_probe_g_t045": 0.7273391812865496,
+  "M2_probe_g_t048": 0.7029726828627133,
+  "M2_probe_g_blend": 0.7307714752567694,
+  "M2_current_production_G_at_050": 0.7308,
+  "delta_blend_vs_production": -2.852474323056242e-05,
+  "decision_1A_promote_blend": false
+}

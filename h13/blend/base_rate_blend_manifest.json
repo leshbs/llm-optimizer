@@ -1,0 +1,13 @@
+{
+  "low_threshold": 0.15,
+  "high_threshold": 0.85,
+  "n_unique_subsections_in_train": 37,
+  "n_test_rows": 173,
+  "n_matched_subsection": 173,
+  "n_unmatched_subsection_fallback_to_model": 0,
+  "n_overridden_low": 19,
+  "n_overridden_high": 42,
+  "n_overridden_total": 61,
+  "n_model_row_count": 112,
+  "n_changed_vs_plain_g_at_050": 1
+}

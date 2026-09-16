@@ -1,0 +1,19 @@
+{
+  "id": 506,
+  "sample_index": 2,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.5,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"There is no direct contradiction between the patient's structured facts and the title's conditions, making it applicable.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "There is no direct contradiction between the patient's structured facts and the title's conditions, making it applicable."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.04000900000392,
+  "prompt_tokens": 3207,
+  "completion_tokens": 40,
+  "timestamp": "2026-09-15T11:26:51Z"
+}

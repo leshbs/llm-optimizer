@@ -1,0 +1,14 @@
+{
+  "id": 1710,
+  "prompt_version": "stage1_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The subsection title specifies 'взрослых пациентов' (adult patients) and 'ИТК пациентов с ХМЛ' (TKI for patients with CML), indicating it is focused on a specific patient group with a particular condition.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The subsection title specifies 'взрослых пациентов' (adult patients) and 'ИТК пациентов с ХМЛ' (TKI for patients with CML), indicating it is focused on a specific patient group with a particular condition."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:55:21Z"
+}

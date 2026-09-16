@@ -1,0 +1,144 @@
+{
+  "byte_profile": {
+    "train_stage2.csv": {
+      "bytes": 13977374,
+      "replacement_ratio": 1.4523472005542673e-05,
+      "high_byte_ratio": 0.8320733207825733,
+      "utf8_clean": true
+    },
+    "test_stage2.csv": {
+      "bytes": 3566483,
+      "replacement_ratio": 1.9346790661836886e-05,
+      "high_byte_ratio": 0.8332659934170442,
+      "utf8_clean": true
+    }
+  },
+  "train": {
+    "shape": [
+      690,
+      4
+    ],
+    "nulls": 0,
+    "duplicate_ids": 0,
+    "duplicate_pairs": 0,
+    "empty_protocol": 0,
+    "empty_title": 0,
+    "protocol_len_min": 597,
+    "protocol_len_median": 4939.5,
+    "protocol_len_max": 32765,
+    "qmark_share_protocol": 2.5333557466679196e-05,
+    "mojibake_rows": 0,
+    "n_distinct_protocols": 221,
+    "n_distinct_titles": 37
+  },
+  "test": {
+    "shape": [
+      173,
+      3
+    ],
+    "nulls": 0,
+    "duplicate_ids": 0,
+    "duplicate_pairs": 0,
+    "empty_protocol": 0,
+    "empty_title": 0,
+    "protocol_len_min": 597,
+    "protocol_len_median": 4529.0,
+    "protocol_len_max": 32765,
+    "qmark_share_protocol": 3.379649221799031e-05,
+    "mojibake_rows": 0,
+    "n_distinct_protocols": 99,
+    "n_distinct_titles": 32
+  },
+  "field_coverage": {
+    "train": {
+      "icd": 0.7202898550724638,
+      "sex": 0.7202898550724638,
+      "age": 0.7202898550724638,
+      "date": 0.7202898550724638,
+      "complaints": 0.9956521739130435,
+      "anamnesis": 0.7333333333333333,
+      "status": 0.7289855072463768
+    },
+    "test": {
+      "icd": 0.6589595375722543,
+      "sex": 0.6589595375722543,
+      "age": 0.6589595375722543,
+      "date": 0.6589595375722543,
+      "complaints": 0.9942196531791907,
+      "anamnesis": 0.6994219653179191,
+      "status": 0.6878612716763006
+    }
+  },
+  "field_coverage_gap": {
+    "icd": 0.06133031750020945,
+    "sex": 0.06133031750020945,
+    "age": 0.06133031750020945,
+    "date": 0.06133031750020945,
+    "complaints": 0.0014325207338528045,
+    "anamnesis": 0.03391136801541417,
+    "status": 0.04112423557007616
+  },
+  "truncation": {
+    "train": {
+      "most_common_lengths": [
+        [
+          32765,
+          147
+        ],
+        [
+          26986,
+          27
+        ],
+        [
+          8580,
+          11
+        ]
+      ],
+      "share_ending_in_sentence_punct": 0.32318840579710145,
+      "n_at_exact_power_of_two": 0
+    },
+    "test": {
+      "most_common_lengths": [
+        [
+          32765,
+          40
+        ],
+        [
+          26986,
+          6
+        ],
+        [
+          3859,
+          5
+        ]
+      ],
+      "share_ending_in_sentence_punct": 0.36416184971098264,
+      "n_at_exact_power_of_two": 0
+    }
+  },
+  "overlap": {
+    "shared_exact_pairs": 0,
+    "shared_protocols": 82,
+    "shared_titles": 32,
+    "test_titles_unseen_in_train": 0,
+    "id_collisions_train_test": 0
+  },
+  "inference_alignment": {
+    "pred_rows": 173,
+    "test_rows": 173,
+    "ids_same_order": true,
+    "ids_same_set": true,
+    "labels_binary": true,
+    "positive_rate": 0.5433526011560693,
+    "proba_rows": 173,
+    "proba_ids_same_order": true,
+    "threshold_reproducing_labels": 0.5,
+    "reproduction_agreement": 1.0
+  },
+  "submission": {
+    "rows": 615,
+    "stage2_rows": 173,
+    "stage2_ids_same_order_as_test": true,
+    "stage2_matches_predictions": true
+  }
+}

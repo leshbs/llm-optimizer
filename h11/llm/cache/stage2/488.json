@@ -1,0 +1,14 @@
+{
+  "id": 488,
+  "prompt_version": "stage2_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.9, \"reasoning\": \"The patient is female and 48 years old, which fits within the adult category for the guideline on endometriosis in postmenopause, as there is no upper age limit specified.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.9,
+    "reasoning": "The patient is female and 48 years old, which fits within the adult category for the guideline on endometriosis in postmenopause, as there is no upper age limit specified."
+  },
+  "error": null,
+  "timestamp": "2026-09-15T01:56:24Z"
+}

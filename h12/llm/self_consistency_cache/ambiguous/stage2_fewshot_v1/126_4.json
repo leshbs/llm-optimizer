@@ -1,0 +1,19 @@
+{
+  "id": 126,
+  "sample_index": 4,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.9,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.85, \"reasoning\": \"The patient's age and the lack of information about pregnancy do not contradict the title's conditions; the gender is unspecified, which does not negate applicability.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.85,
+    "reasoning": "The patient's age and the lack of information about pregnancy do not contradict the title's conditions; the gender is unspecified, which does not negate applicability."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.1281406000052812,
+  "prompt_tokens": 3218,
+  "completion_tokens": 49,
+  "timestamp": "2026-09-15T11:27:10Z"
+}

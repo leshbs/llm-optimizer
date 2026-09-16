@@ -1,0 +1,4 @@
+metric,offline_value,leaderboard_value,gap,note
+Stage1 (M1),0.46481421338018125,,,Stage1-only leaderboard reading requires Probe B
+Stage2 (M2),0.7023868247508647,,,Stage2-only leaderboard reading requires Probe A
+Overall (70-point scale),44.1781,49.2,5.0219,Diagnosis: Plateau / No degradation (leaderboard >= offline estimate)

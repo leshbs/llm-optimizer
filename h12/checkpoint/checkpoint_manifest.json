@@ -1,0 +1,14 @@
+{
+  "candidate_name": "Classical",
+  "stage1_source": "final/predictions/stage1_predictions.csv (unchanged, production C1)",
+  "stage2_source": "final/predictions/stage2_predictions.csv (unchanged, production G)",
+  "prompt_version_stage1": "n/a (classical)",
+  "prompt_version_stage2": "n/a (classical)",
+  "contradiction_rules": "CORRECTED (H13 freeze audit, 2026-09-16): rule_based_prediction() is NOT applied in the actual production inference cell (sec65code, H10 65.0) -- that cell only computes pred_g_h10 = (proba_g_h10 >= 0.50).astype(int) from the trained G pipeline directly. rule_based_prediction() is only ever invoked in sec107code (an H12 Part 3 ensemble-candidate builder, not on the production path) and referenced descriptively in sec112code_h12p4. The original claim here (that the rule override is 'already baked into production G's own predictions') was factually wrong and has been corrected in place; it does not affect the checkpoint CSV itself (bytes unchanged, checksum below still matches), only this documentation field.",
+  "checksum": "653c2b360bdf450d882bb4709b117fa2f7a4ba11f7a36ce8c0319a7b9c897ac9",
+  "timestamp": "2026-09-15T11:49:21Z",
+  "leaderboard_placeholder": "SCORED -- real leaderboard overall score 49.21/70 (M1_real(C1)=0.6382, M2_real(G)=0.7308)",
+  "decision_tree_branch_at_selection": "PENDING_INSUFFICIENT_DATA",
+  "selection_reason": "Decision tree status is 'PENDING_INSUFFICIENT_DATA' -- no leaderboard evidence yet justifies switching away from the classical production pipeline, so Classical is kept.",
+  "freeze_status": "FROZEN per FINAL FREEZE DIRECTIVE (2026-09-16) -- immutable production artifact, never overwrite."
+}

@@ -1,0 +1,19 @@
+{
+  "id": 188,
+  "sample_index": 4,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.9,
+  "raw_response": "{\"prediction\": 1, \"confidence\": 0.95, \"reasoning\": \"The age condition is not specified, and the gender is unknown; therefore, there is no direct contradiction with the title's recommendations.\"}",
+  "parsed": {
+    "prediction": 1,
+    "confidence": 0.95,
+    "reasoning": "The age condition is not specified, and the gender is unknown; therefore, there is no direct contradiction with the title's recommendations."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.1251084000105038,
+  "prompt_tokens": 3286,
+  "completion_tokens": 46,
+  "timestamp": "2026-09-15T11:26:42Z"
+}

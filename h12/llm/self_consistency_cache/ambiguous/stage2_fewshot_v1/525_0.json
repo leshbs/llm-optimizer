@@ -1,0 +1,19 @@
+{
+  "id": 525,
+  "sample_index": 0,
+  "prompt_version": "stage2_fewshot_v1",
+  "model": "gpt-4o-mini",
+  "temperature": 0.0,
+  "raw_response": "{\"prediction\": 0, \"confidence\": 0.95, \"reasoning\": \"The title specifies a focus on children with gonarthrosis, while the patient is 73 years old, which is a direct contradiction.\"}",
+  "parsed": {
+    "prediction": 0,
+    "confidence": 0.95,
+    "reasoning": "The title specifies a focus on children with gonarthrosis, while the patient is 73 years old, which is a direct contradiction."
+  },
+  "error": null,
+  "retries_used": 0,
+  "latency_seconds": 1.0547598999983165,
+  "prompt_tokens": 3029,
+  "completion_tokens": 47,
+  "timestamp": "2026-09-15T11:27:00Z"
+}
