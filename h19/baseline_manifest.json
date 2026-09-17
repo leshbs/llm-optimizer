@@ -1,0 +1,59 @@
+{
+  "model_name": "G (frozen C2 structured_preprocessor + 11 promoted contradiction features)",
+  "estimator": "LogisticRegression(max_iter=2000, class_weight='balanced', random_state=42)",
+  "feature_set": {
+    "title_tfidf": "TfidfVectorizer(min_df=2) on title_lemma",
+    "narrative_tfidf": "TfidfVectorizer(min_df=2, max_features=20000) on narrative_lemma",
+    "numeric": [
+      "age",
+      "has_structured_header",
+      "negation_count",
+      "protocol_len"
+    ],
+    "gender": "OneHotEncoder(handle_unknown='ignore')",
+    "contradiction": [
+      "age_contradiction",
+      "gender_condition_present",
+      "gender_unknown",
+      "severity_match",
+      "severity_contradiction",
+      "severity_unknown",
+      "condition_overlap",
+      "condition_contradiction",
+      "condition_unknown",
+      "contradiction_count",
+      "contradiction_density"
+    ]
+  },
+  "hyperparameters": {
+    "max_iter": 2000,
+    "class_weight": "balanced",
+    "random_state": 42,
+    "C": 1.0
+  },
+  "threshold": 0.5,
+  "cv_splitter": "frozen/skf2_folds.json (5 frozen stratified folds)",
+  "input_files": [
+    "train_stage2.csv",
+    "h8/cache/h8_features.parquet",
+    "frozen/skf2_folds.json"
+  ],
+  "m2": 0.7023868247508647,
+  "macro_f2": 0.8160740711378891,
+  "fold_scores_macro_f2": [
+    0.7447833065810594,
+    0.8298500122940743,
+    0.8361065665204135,
+    0.8344319929685784,
+    0.8344319929685784
+  ],
+  "mean_fold": 0.8159207742665409,
+  "std_fold": 0.03983515917288531,
+  "fn": 81,
+  "fp": 42,
+  "positive_rate": 0.6,
+  "reference_m2": 0.7023868247508647,
+  "drift_vs_reference": 0.0,
+  "max_abs_deviation_vs_cached_oof": 1.1102230246251565e-16,
+  "real_m2_do_not_use_for_selection": 0.7307714752567694
+}

@@ -1,0 +1,65 @@
+{
+  "fresh_seeds": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "G": {
+    "candidate": "G (fresh seeds)",
+    "m2_mean": 0.6888151687384678,
+    "m2_sd_repeats": 0.025749521437129566,
+    "m2_per_repeat": [
+      0.66,
+      0.6615,
+      0.7037,
+      0.7108,
+      0.708
+    ],
+    "auc_mean": 0.888451113532847,
+    "fn_mean": 83.4,
+    "fp_mean": 43.6,
+    "positive_rate": 0.5988405797101449,
+    "collapsed_within_auc": 0.448543599257885,
+    "collapsed_fn_mean": 35.6,
+    "collapsed_pos": 36
+  },
+  "C0": {
+    "candidate": "C0 (fresh seeds)",
+    "m2_mean": 0.7106883553670547,
+    "m2_sd_repeats": 0.026738787952219775,
+    "m2_per_repeat": [
+      0.6683,
+      0.7008,
+      0.7218,
+      0.7305,
+      0.7319
+    ],
+    "auc_mean": 0.8964726483546167,
+    "fn_mean": 76.8,
+    "fp_mean": 42.8,
+    "positive_rate": 0.6072463768115942,
+    "collapsed_within_auc": 0.5139311482168625,
+    "collapsed_fn_mean": 30.0,
+    "collapsed_pos": 36,
+    "delta_m2_mean": 0.02187318662858686,
+    "delta_m2_per_repeat": [
+      0.0083,
+      0.0393,
+      0.0181,
+      0.0197,
+      0.0239
+    ],
+    "repeats_improved": 5,
+    "fold_delta_m2_mean": 0.02188275719063142,
+    "corrected_t": 1.1254729351920738,
+    "p_one_sided": 0.13575912576366678,
+    "passes_gate": false
+  },
+  "confirmed": false,
+  "refit_G_reproduces_production_stage2": true,
+  "test_icd_unseen_in_train": [],
+  "test_rows_with_icd": 115,
+  "candidate_written": false
+}

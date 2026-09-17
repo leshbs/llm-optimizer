@@ -130,8 +130,8 @@ _trunc = {
     name: int((frames_s2["protocol_text"].astype(str).str.len() == CELL_LIMIT_TRUNCATION).sum())
     for name, frames_s2 in (("train_stage2.csv", train_s2), ("test_stage2.csv", test_s2))
 }
-print("
-protocol_text truncated at the %d-character export limit:" % CELL_LIMIT_TRUNCATION)
+print()
+print("protocol_text truncated at the %d-character export limit:" % CELL_LIMIT_TRUNCATION)
 for _name, _n in _trunc.items():
     _total = len(train_s2) if _name.startswith("train") else len(test_s2)
     print("  %-17s %3d / %3d rows (%.1f%%)" % (_name, _n, _total, 100 * _n / _total))'''

@@ -1,0 +1,133 @@
+{
+  "ablation": [
+    {
+      "experiment": "A. baseline (config G)",
+      "n_extra_features": 11,
+      "cv_m2": 0.7023868247508647,
+      "delta_vs_baseline": 0.0,
+      "macro_f2": 0.8160740711378891,
+      "mean_fold": 0.8159207742665409,
+      "std_fold": 0.03983515917288531,
+      "fn": 81,
+      "fp": 42,
+      "positive_rate": 0.6,
+      "fold_scores": [
+        0.7448,
+        0.8299,
+        0.8361,
+        0.8344,
+        0.8344
+      ]
+    },
+    {
+      "experiment": "B. + condition presence",
+      "n_extra_features": 15,
+      "cv_m2": 0.6743338397756831,
+      "delta_vs_baseline": -0.028052984975181605,
+      "macro_f2": 0.8034502278990574,
+      "mean_fold": 0.8032361611510389,
+      "std_fold": 0.03968369516813768,
+      "fn": 91,
+      "fp": 42,
+      "positive_rate": 0.5855072463768116,
+      "fold_scores": [
+        0.7351,
+        0.8326,
+        0.8302,
+        0.8091,
+        0.8091
+      ]
+    },
+    {
+      "experiment": "C. + scoped negation",
+      "n_extra_features": 20,
+      "cv_m2": 0.6668236832789914,
+      "delta_vs_baseline": -0.03556314147187323,
+      "macro_f2": 0.8000706574755462,
+      "mean_fold": 0.7999389721989986,
+      "std_fold": 0.04077611701827575,
+      "fn": 80,
+      "fp": 51,
+      "positive_rate": 0.6144927536231884,
+      "fold_scores": [
+        0.729,
+        0.8333,
+        0.8164,
+        0.8091,
+        0.8119
+      ]
+    },
+    {
+      "experiment": "D. + presence + scoped neg",
+      "n_extra_features": 24,
+      "cv_m2": 0.6518170962901371,
+      "delta_vs_baseline": -0.0505697284607276,
+      "macro_f2": 0.7933176933305617,
+      "mean_fold": 0.7927940343987194,
+      "std_fold": 0.03958305158519113,
+      "fn": 90,
+      "fp": 48,
+      "positive_rate": 0.5956521739130435,
+      "fold_scores": [
+        0.7254,
+        0.8261,
+        0.7941,
+        0.8028,
+        0.8154
+      ]
+    },
+    {
+      "experiment": "E. + all H19 features",
+      "n_extra_features": 27,
+      "cv_m2": 0.6490282578746475,
+      "delta_vs_baseline": -0.053358566876217206,
+      "macro_f2": 0.7920627160435914,
+      "mean_fold": 0.7915656177039386,
+      "std_fold": 0.039626000282214996,
+      "fn": 91,
+      "fp": 48,
+      "positive_rate": 0.5942028985507246,
+      "fold_scores": [
+        0.7254,
+        0.8261,
+        0.788,
+        0.8028,
+        0.8154
+      ]
+    }
+  ],
+  "verdict": {
+    "B. + condition presence": {
+      "delta_m2": -0.028052984975181605,
+      "folds_improved": 1,
+      "folds_total": 5,
+      "fn_change": 10,
+      "fp_change": 0,
+      "keep": false
+    },
+    "C. + scoped negation": {
+      "delta_m2": -0.03556314147187323,
+      "folds_improved": 1,
+      "folds_total": 5,
+      "fn_change": -1,
+      "fp_change": 9,
+      "keep": false
+    },
+    "D. + presence + scoped neg": {
+      "delta_m2": -0.0505697284607276,
+      "folds_improved": 0,
+      "folds_total": 5,
+      "fn_change": 9,
+      "fp_change": 6,
+      "keep": false
+    },
+    "E. + all H19 features": {
+      "delta_m2": -0.053358566876217206,
+      "folds_improved": 0,
+      "folds_total": 5,
+      "fn_change": 10,
+      "fp_change": 6,
+      "keep": false
+    }
+  }
+}

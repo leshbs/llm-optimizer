@@ -1,0 +1,45 @@
+{
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "pymorphy3": "2.0.6",
+    "pymorphy3-dicts-ru": "2.4.417150.4580142",
+    "seed": 42
+  },
+  "stage1": {
+    "C": 10.0,
+    "threshold": 0.69,
+    "rule_enabled": true,
+    "test_positive_rate": 0.21945701357466063
+  },
+  "stage2": {
+    "threshold": 0.5,
+    "features": [
+      "age_contradiction",
+      "gender_condition_present",
+      "gender_unknown",
+      "severity_match",
+      "severity_contradiction",
+      "severity_unknown",
+      "condition_overlap",
+      "condition_contradiction",
+      "condition_unknown",
+      "contradiction_count",
+      "contradiction_density",
+      "age",
+      "has_structured_header",
+      "negation_count",
+      "protocol_len"
+    ],
+    "test_positive_rate": 0.5433526011560693
+  },
+  "submission_sha256": "5cd35e4dcba7f5a8bcef21e21b9689440a413e2712c6a65258136a957e8945a6",
+  "fingerprints": {
+    "1": "2b69d508db83bb0425b6302e7c11c62ea0e2780c92f78428b0a6406d65548e5e",
+    "2": "6dbaea4e69e221956017c09ad2e3dc14791074441505deeb57d88d401a72890b"
+  },
+  "runtime_seconds": 87
+}

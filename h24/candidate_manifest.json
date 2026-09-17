@@ -1,0 +1,37 @@
+{
+  "candidate": "h24\\submission_candidate_h24_c0.csv",
+  "candidate_sha256": "367e14c98b9cd72883f20b58abcf77d5a18622506dc92e923ec4aeb37b349850",
+  "model": "C0 = config G + OneHot(icd) + TF-IDF(diagnosis_lemma); LogisticRegression (C=1.0, class_weight='balanced', max_iter=2000, random_state=42); threshold 0.5",
+  "stage1_source": "h17\\submission_stage1_clean.csv (rows copied unchanged)",
+  "evidence": {
+    "seeds_0_4": {
+      "delta_m2": 0.0222,
+      "repeats_improved": "5/5",
+      "p_one_sided": 0.079,
+      "gate": "PASS"
+    },
+    "seeds_5_9": {
+      "delta_m2": 0.02187318662858686,
+      "repeats_improved": "5/5",
+      "p_one_sided": 0.13575912576366678,
+      "gate": "FAIL"
+    },
+    "folds_improved_all_10_repeats": "39/50 (10 worse, 1 tie)",
+    "frozen_split_m2": {
+      "G": 0.702387,
+      "C0": 0.702292
+    }
+  },
+  "decision": "promoted as a documented judgement call, approved by the user, despite the failed fresh-seed gate (see module docstring for the grounds)",
+  "stage2_positive_rate": {
+    "production_G": 0.5433526011560693,
+    "candidate_C0": 0.5780346820809249
+  },
+  "stage2_flips": {
+    "total": 6,
+    "0_to_1": 6,
+    "1_to_0": 0
+  },
+  "production_untouched": true,
+  "submitted": false
+}

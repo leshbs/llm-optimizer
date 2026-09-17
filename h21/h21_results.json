@@ -1,0 +1,142 @@
+[
+  {
+    "experiment": "A. baseline (config G)",
+    "families": "none",
+    "cv_m2": 0.7023868247508647,
+    "delta_vs_baseline": 0.0,
+    "macro_f2": 0.8160740711378891,
+    "mean_fold": 0.8159207742665409,
+    "std_fold": 0.03983515917288531,
+    "fn": 81,
+    "fp": 42,
+    "positive_rate": 0.6,
+    "folds_improved": 0,
+    "fold_scores": [
+      0.7448,
+      0.8299,
+      0.8361,
+      0.8344,
+      0.8344
+    ]
+  },
+  {
+    "experiment": "B. exact protocol recurrence",
+    "families": "protocol",
+    "cv_m2": 0.696704290243994,
+    "delta_vs_baseline": -0.005682534506870618,
+    "macro_f2": 0.8135169306097974,
+    "mean_fold": 0.8133506929383643,
+    "std_fold": 0.04095241226289143,
+    "fn": 80,
+    "fp": 44,
+    "positive_rate": 0.6043478260869565,
+    "folds_improved": 1,
+    "fold_scores": [
+      0.7413,
+      0.8363,
+      0.8361,
+      0.8344,
+      0.8186
+    ]
+  },
+  {
+    "experiment": "C. normalised protocol recurrence",
+    "families": "norm",
+    "cv_m2": 0.696704290243994,
+    "delta_vs_baseline": -0.005682534506870618,
+    "macro_f2": 0.8135169306097974,
+    "mean_fold": 0.8133506929383643,
+    "std_fold": 0.04095241226289143,
+    "fn": 80,
+    "fp": 44,
+    "positive_rate": 0.6043478260869565,
+    "folds_improved": 1,
+    "fold_scores": [
+      0.7413,
+      0.8363,
+      0.8361,
+      0.8344,
+      0.8186
+    ]
+  },
+  {
+    "experiment": "D. title recurrence",
+    "families": "title",
+    "cv_m2": 0.6855206502076486,
+    "delta_vs_baseline": -0.01686617454321604,
+    "macro_f2": 0.8084842925934419,
+    "mean_fold": 0.8084272107961393,
+    "std_fold": 0.04646232494192179,
+    "fn": 84,
+    "fp": 44,
+    "positive_rate": 0.5985507246376811,
+    "folds_improved": 0,
+    "fold_scores": [
+      0.7261,
+      0.8205,
+      0.8361,
+      0.8249,
+      0.8344
+    ]
+  },
+  {
+    "experiment": "E. title+protocol pair recurrence",
+    "families": "pair",
+    "cv_m2": 0.7023868247508647,
+    "delta_vs_baseline": 0.0,
+    "macro_f2": 0.8160740711378891,
+    "mean_fold": 0.8159207742665409,
+    "std_fold": 0.03983515917288531,
+    "fn": 81,
+    "fp": 42,
+    "positive_rate": 0.6,
+    "folds_improved": 0,
+    "fold_scores": [
+      0.7448,
+      0.8299,
+      0.8361,
+      0.8344,
+      0.8344
+    ]
+  },
+  {
+    "experiment": "F. label-conditioned rates",
+    "families": "label",
+    "cv_m2": 0.5549860687104532,
+    "delta_vs_baseline": -0.14740075604041147,
+    "macro_f2": 0.7497437309197039,
+    "mean_fold": 0.7485680175724634,
+    "std_fold": 0.033161078592999056,
+    "fn": 76,
+    "fp": 79,
+    "positive_rate": 0.6608695652173913,
+    "folds_improved": 0,
+    "fold_scores": [
+      0.7007,
+      0.7559,
+      0.7355,
+      0.7604,
+      0.7903
+    ]
+  },
+  {
+    "experiment": "G. all recurrence families",
+    "families": "protocol+norm+title+pair+label",
+    "cv_m2": 0.5728501474141121,
+    "delta_vs_baseline": -0.12953667733675256,
+    "macro_f2": 0.7577825663363504,
+    "mean_fold": 0.7568597049047397,
+    "std_fold": 0.0358415544720815,
+    "fn": 76,
+    "fp": 75,
+    "positive_rate": 0.6550724637681159,
+    "folds_improved": 0,
+    "fold_scores": [
+      0.696,
+      0.7658,
+      0.7717,
+      0.7604,
+      0.7903
+    ]
+  }
+]

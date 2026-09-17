@@ -1,0 +1,65 @@
+{
+  "threshold": {
+    "at_050": {
+      "threshold": 0.5,
+      "m2": 0.7023868247508647,
+      "macro_f2": 0.8160740711378891,
+      "precision_pos": 0.8985507246376812,
+      "recall_pos": 0.8211920529801324,
+      "fn": 81.0,
+      "fp": 42.0,
+      "positive_rate": 0.6
+    },
+    "best_in_sample": {
+      "threshold": 0.5,
+      "m2": 0.7023868247508647,
+      "macro_f2": 0.8160740711378891,
+      "precision_pos": 0.8985507246376812,
+      "recall_pos": 0.8211920529801324,
+      "fn": 81.0,
+      "fp": 42.0,
+      "positive_rate": 0.6
+    },
+    "in_sample_gain": 0.0,
+    "nested_thresholds": [
+      0.53,
+      0.53,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "nested_threshold_median": 0.5,
+    "nested_m2": 0.6883692458842599,
+    "nested_gain_vs_050": -0.014017578866604818,
+    "nested_fn": 86,
+    "nested_fp": 42,
+    "nested_positive_rate": 0.5927536231884057
+  },
+  "grouped_cv": {
+    "protocol": {
+      "n_groups": 221,
+      "m2": 0.6826194847729167,
+      "macro_f2": 0.8071787681478125,
+      "fn": 82,
+      "fp": 46,
+      "positive_rate": 0.6043478260869565
+    },
+    "normalised protocol": {
+      "n_groups": 221,
+      "m2": 0.6826194847729167,
+      "macro_f2": 0.8071787681478125,
+      "fn": 82,
+      "fp": 46,
+      "positive_rate": 0.6043478260869565
+    },
+    "title": {
+      "n_groups": 37,
+      "m2": 0.42237218130102605,
+      "macro_f2": 0.6900674815854617,
+      "fn": 114,
+      "fp": 86,
+      "positive_rate": 0.6159420289855072
+    }
+  },
+  "frozen_split_m2": 0.7023868247508647
+}

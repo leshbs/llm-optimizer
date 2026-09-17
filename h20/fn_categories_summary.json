@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "category": "condition_affirmed_but_missed",
+      "count": 12,
+      "pct_of_all_fn": 14.814814814814815,
+      "proba_median": 0.40967402430324673,
+      "proba_p10": 0.31119622960006643,
+      "proba_p90": 0.48547846877558803,
+      "mean_protocol_len": 12427.75,
+      "mean_title_len": 233.58333333333334,
+      "condition_present_rate": 1.0,
+      "scoped_negation_rate": 0.0,
+      "n_fixed_by_h19_C": 2
+    },
+    {
+      "category": "condition_negated",
+      "count": 10,
+      "pct_of_all_fn": 12.345679012345679,
+      "proba_median": 0.3776238271189776,
+      "proba_p10": 0.32625492240373594,
+      "proba_p90": 0.4808456231239187,
+      "mean_protocol_len": 14529.3,
+      "mean_title_len": 206.5,
+      "condition_present_rate": 1.0,
+      "scoped_negation_rate": 1.0,
+      "n_fixed_by_h19_C": 0
+    },
+    {
+      "category": "title_prior_collapse_total",
+      "count": 37,
+      "pct_of_all_fn": 45.67901234567901,
+      "proba_median": 0.2476657914797105,
+      "proba_p10": 0.13469692328877786,
+      "proba_p90": 0.3964848923633996,
+      "mean_protocol_len": 5025.864864864865,
+      "mean_title_len": 170.59459459459458,
+      "condition_present_rate": 0.8918918918918919,
+      "scoped_negation_rate": 0.2972972972972973,
+      "n_fixed_by_h19_C": 1
+    },
+    {
+      "category": "title_prior_low_partial",
+      "count": 22,
+      "pct_of_all_fn": 27.160493827160494,
+      "proba_median": 0.40832838434871876,
+      "proba_p10": 0.3003615863239667,
+      "proba_p90": 0.48766350078473036,
+      "mean_protocol_len": 18112.272727272728,
+      "mean_title_len": 232.95454545454547,
+      "condition_present_rate": 0.9545454545454546,
+      "scoped_negation_rate": 0.18181818181818182,
+      "n_fixed_by_h19_C": 4
+    }
+  ],
+  "n_fn": 81,
+  "n_collapsed_titles": 8,
+  "total_fixed_by_h19_C": 7
+}
